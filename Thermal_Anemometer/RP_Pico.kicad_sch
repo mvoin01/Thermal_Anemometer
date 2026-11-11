@@ -2,7 +2,7 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid "0533affa-d8dc-4987-b6ce-20c9ff9ba0ae")
+	(uuid "7b5ba25c-aa19-496e-ba4c-3cdb5b5e5fb3")
 	(paper "A4")
 	(title_block
 		(title "Thermal Anemometer")
@@ -1046,6 +1046,316 @@
 			)
 			(embedded_fonts no)
 		)
+	)
+	(wire
+		(pts
+			(xy 45.72 95.25) (xy 64.77 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03345db3-597c-4a05-9c4b-822525dc5ddf")
+	)
+	(wire
+		(pts
+			(xy 45.72 121.92) (xy 55.88 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d93936b-6e56-43c4-adce-e7f2cba25739")
+	)
+	(wire
+		(pts
+			(xy 45.72 107.95) (xy 64.77 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2439f75b-dbc3-4616-b716-da776dd86524")
+	)
+	(wire
+		(pts
+			(xy 45.72 73.66) (xy 62.23 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c5b0ff9-16d4-4dde-804d-624b2186eded")
+	)
+	(wire
+		(pts
+			(xy 45.72 104.14) (xy 64.77 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ed867f0-b24c-42ff-8741-57ce9e84c9b0")
+	)
+	(wire
+		(pts
+			(xy 45.72 110.49) (xy 64.77 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75e3b644-5a5b-438f-8e96-a3fdcc626f84")
+	)
+	(wire
+		(pts
+			(xy 45.72 97.79) (xy 64.77 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "779644dc-ad20-47ad-bff6-acf81e08a596")
+	)
+	(wire
+		(pts
+			(xy 45.72 92.71) (xy 64.77 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5fb86cc-9994-4b86-81bf-2943eb710329")
+	)
+	(wire
+		(pts
+			(xy 45.72 101.6) (xy 64.77 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0a4b0c4-8806-4daa-8e3b-d872e54a5341")
+	)
+	(wire
+		(pts
+			(xy 55.88 119.38) (xy 45.72 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df4bd9b4-185b-4e33-9b87-ae52d7dfb9a0")
+	)
+	(label "SPI_MISO"
+		(at 52.07 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "12c43692-8171-4885-871b-3c1cb68d4214")
+	)
+	(label "SPI_nDRDY1"
+		(at 52.07 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2a38cac4-f08f-42b3-81d8-54eab20a41b8")
+	)
+	(label "nCS2"
+		(at 52.07 110.49 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3017c224-a297-42e8-ace9-4630c908d45b")
+	)
+	(label "SPI_CLK"
+		(at 52.07 92.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "361798c3-74f1-4a9e-be4d-772841c9e30f")
+	)
+	(label "nCS1"
+		(at 52.07 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3f32cd69-3e7b-41b7-a962-47bacd6fd529")
+	)
+	(label "I2C_SCL"
+		(at 45.72 119.38 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5926bbd0-1851-402f-bd57-0c7f2c8cfc1d")
+	)
+	(label "uHeater_EN"
+		(at 62.23 73.66 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8c9b594c-2fa8-4763-8550-ee2fbd069869")
+	)
+	(label "SPI_MOSI"
+		(at 52.07 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a217eeba-209f-41f2-8a52-a7e09e755511")
+	)
+	(label "SPI_nDRDY2"
+		(at 52.07 107.95 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a8d65098-0d38-4f27-aa4d-31853cd4d430")
+	)
+	(label "I2C_SDA"
+		(at 45.72 121.92 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b20a2b33-8270-4350-bd98-022d4f316400")
+	)
+	(hierarchical_label "I2C_SDA"
+		(shape bidirectional)
+		(at 55.88 121.92 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "16318941-647f-4312-90eb-4cbef1648414")
+	)
+	(hierarchical_label "nCS1"
+		(shape output)
+		(at 45.72 104.14 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1f8bfe9f-ae20-41de-a5d0-f45a3a174821")
+	)
+	(hierarchical_label "SPI_nDRDY2"
+		(shape input)
+		(at 45.72 107.95 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3fad1726-71f3-459b-ba01-e79ec224bd6a")
+	)
+	(hierarchical_label "SPI_CLK"
+		(shape bidirectional)
+		(at 45.72 92.71 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4f31c3d8-caf5-49fa-bcf4-7f76f9d18871")
+	)
+	(hierarchical_label "SPI_nDRDY1"
+		(shape input)
+		(at 45.72 101.6 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8552f24f-ee60-4bf9-b1fa-a28b2f13d946")
+	)
+	(hierarchical_label "uHeater_EN"
+		(shape output)
+		(at 45.72 73.66 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9ae04379-8ad7-417d-86b0-ec4f69489ed9")
+	)
+	(hierarchical_label "nCS2"
+		(shape output)
+		(at 45.72 110.49 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b53c2c39-2a36-4c9a-8a89-f03cda53a5b8")
+	)
+	(hierarchical_label "I2C_SCL"
+		(shape bidirectional)
+		(at 55.88 119.38 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bcd712d5-f29c-44f1-8c4c-90d8fc0d2888")
+	)
+	(hierarchical_label "SPI_MOSI"
+		(shape bidirectional)
+		(at 45.72 97.79 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d10b1e3f-ca4d-43d1-9382-25e41a5281e1")
+	)
+	(hierarchical_label "SPI_MISO"
+		(shape bidirectional)
+		(at 45.72 95.25 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f306f8b6-f736-47f2-a6a3-efb65f3d21f6")
 	)
 	(symbol
 		(lib_id "MCU_Module:RaspberryPi_Pico")
