@@ -1034,7 +1034,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 114.3) (xy 180.34 114.3)
+			(xy 163.83 92.329) (xy 179.07 92.329)
 		)
 		(stroke
 			(width 0)
@@ -1044,7 +1044,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 113.03) (xy 127 113.03)
+			(xy 107.95 91.059) (xy 125.73 91.059)
 		)
 		(stroke
 			(width 0)
@@ -1104,7 +1104,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 83.82) (xy 166.37 83.82)
+			(xy 153.67 68.199) (xy 165.1 68.199)
 		)
 		(stroke
 			(width 0)
@@ -1154,7 +1154,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 85.09) (xy 127 85.09)
+			(xy 114.3 69.469) (xy 125.73 69.469)
 		)
 		(stroke
 			(width 0)
@@ -1164,7 +1164,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 121.92) (xy 180.34 121.92)
+			(xy 163.83 99.949) (xy 179.07 99.949)
 		)
 		(stroke
 			(width 0)
@@ -1174,7 +1174,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 123.19) (xy 127 123.19)
+			(xy 107.95 101.219) (xy 125.73 101.219)
 		)
 		(stroke
 			(width 0)
@@ -1214,7 +1214,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 82.55) (xy 127 82.55)
+			(xy 114.3 66.929) (xy 125.73 66.929)
 		)
 		(stroke
 			(width 0)
@@ -1244,7 +1244,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 120.65) (xy 127 120.65)
+			(xy 107.95 98.679) (xy 125.73 98.679)
 		)
 		(stroke
 			(width 0)
@@ -1254,7 +1254,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 115.57) (xy 127 115.57)
+			(xy 107.95 93.599) (xy 125.73 93.599)
 		)
 		(stroke
 			(width 0)
@@ -1283,7 +1283,7 @@
 		(uuid "01ce9a53-54d5-4ceb-bd78-0e2f0715c764")
 	)
 	(label "A_OUT2"
-		(at 180.34 121.92 180)
+		(at 179.07 99.949 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1293,7 +1293,7 @@
 		(uuid "04f340d2-f536-4866-9126-65876c72bc32")
 	)
 	(label "A_OUT1"
-		(at 180.34 114.3 180)
+		(at 179.07 92.329 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1333,7 +1333,7 @@
 		(uuid "4701041f-4be3-48ae-b806-8845373e89c5")
 	)
 	(label "uHeater1+"
-		(at 115.57 82.55 0)
+		(at 114.3 66.929 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1343,7 +1343,7 @@
 		(uuid "4799652e-8442-4797-8d63-5e6efa58c23a")
 	)
 	(label "PT1000_2+"
-		(at 109.22 120.65 0)
+		(at 107.95 98.679 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1353,7 +1353,7 @@
 		(uuid "5e6be5e3-ceb6-4e3f-8213-2ba7f54025eb")
 	)
 	(label "PT1000_1-"
-		(at 109.22 115.57 0)
+		(at 107.95 93.599 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1373,7 +1373,7 @@
 		(uuid "7a448f08-8464-46b8-9334-fdb194f24dd2")
 	)
 	(label "uHeater_EN"
-		(at 166.37 83.82 180)
+		(at 165.1 68.199 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1383,7 +1383,7 @@
 		(uuid "7cce5f0f-fc66-49c1-a3c2-f1210e5ff744")
 	)
 	(label "uHeater1-"
-		(at 115.57 85.09 0)
+		(at 114.3 69.469 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1413,7 +1413,7 @@
 		(uuid "82b398e7-56bc-4583-9551-af78ddedb488")
 	)
 	(label "PT1000_2-"
-		(at 109.22 123.19 0)
+		(at 107.95 101.219 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1423,7 +1423,7 @@
 		(uuid "87622be2-608b-4991-af5e-f6b2e603a17d")
 	)
 	(label "PT1000_1+"
-		(at 109.22 113.03 0)
+		(at 107.95 91.059 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1741,7 +1741,7 @@
 		)
 	)
 	(sheet
-		(at 127 39.751)
+		(at 125.73 28.575)
 		(size 38.735 25.654)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1757,7 +1757,7 @@
 		)
 		(uuid "1ca572dd-078e-472c-9cd3-8d14f26c455e")
 		(property "Sheetname" "PSU"
-			(at 127 39.0394 0)
+			(at 125.73 27.8634 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1768,7 +1768,7 @@
 			)
 		)
 		(property "Sheetfile" "PSU.kicad_sch"
-			(at 127 65.9896 0)
+			(at 125.73 54.8136 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1833,7 +1833,7 @@
 		)
 	)
 	(sheet
-		(at 127 107.95)
+		(at 125.73 85.979)
 		(size 38.1 20.955)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1849,7 +1849,7 @@
 		)
 		(uuid "a636d246-2c23-47ab-8316-c8d2ce1574d0")
 		(property "Sheetname" "Wheatstone_Bridge"
-			(at 127 107.2384 0)
+			(at 125.73 85.2674 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1860,7 +1860,7 @@
 			)
 		)
 		(property "Sheetfile" "Wheatstone_Bridge.kicad_sch"
-			(at 127 129.4896 0)
+			(at 125.73 107.5186 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1871,7 +1871,7 @@
 			)
 		)
 		(pin "PT1000_1+" input
-			(at 127 113.03 180)
+			(at 125.73 91.059 180)
 			(uuid "99ec884c-c5e0-42f0-92ac-f151f88e1bd0")
 			(effects
 				(font
@@ -1881,7 +1881,7 @@
 			)
 		)
 		(pin "PT1000_1-" input
-			(at 127 115.57 180)
+			(at 125.73 93.599 180)
 			(uuid "31164315-8b68-4de1-a488-38812a08caf5")
 			(effects
 				(font
@@ -1891,7 +1891,7 @@
 			)
 		)
 		(pin "PT1000_2+" input
-			(at 127 120.65 180)
+			(at 125.73 98.679 180)
 			(uuid "1e450a72-9b77-4c76-acf2-94505f7caa9d")
 			(effects
 				(font
@@ -1901,7 +1901,7 @@
 			)
 		)
 		(pin "PT1000_2-" input
-			(at 127 123.19 180)
+			(at 125.73 101.219 180)
 			(uuid "19b4ee32-fabb-43ec-aa7d-6acfe2e061bf")
 			(effects
 				(font
@@ -1911,7 +1911,7 @@
 			)
 		)
 		(pin "A_OUT1" output
-			(at 165.1 114.3 0)
+			(at 163.83 92.329 0)
 			(uuid "2caf07c6-307c-437e-94c2-b0df709b7097")
 			(effects
 				(font
@@ -1921,7 +1921,7 @@
 			)
 		)
 		(pin "A_OUT2" output
-			(at 165.1 121.92 0)
+			(at 163.83 99.949 0)
 			(uuid "521796de-5870-4ba3-9438-461e38d4886a")
 			(effects
 				(font
@@ -1939,7 +1939,53 @@
 		)
 	)
 	(sheet
-		(at 127 78.232)
+		(at 127 120.65)
+		(size 37.465 23.495)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 236 143 1)
+		)
+		(uuid "ccdc9088-82b0-4725-99c3-cfff00013011")
+		(property "Sheetname" "MAX31865"
+			(at 127 119.9384 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MAX31865.kicad_sch"
+			(at 127 144.7296 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Thermal_Anemometer"
+				(path "/1a4ae788-da9e-455d-943f-0a0d3148ba06"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 125.73 62.611)
 		(size 27.94 11.303)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1955,7 +2001,7 @@
 		)
 		(uuid "d6acedc3-60c2-49c3-9d70-3d7b7b22d41c")
 		(property "Sheetname" "uHeater"
-			(at 127 77.5204 0)
+			(at 125.73 61.8994 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1966,7 +2012,7 @@
 			)
 		)
 		(property "Sheetfile" "uHeater.kicad_sch"
-			(at 127 90.1196 0)
+			(at 125.73 74.4986 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1977,7 +2023,7 @@
 			)
 		)
 		(pin "uHeater+" output
-			(at 127 82.55 180)
+			(at 125.73 66.929 180)
 			(uuid "aa6c0566-4036-4bfd-a82e-87b8a5375ce4")
 			(effects
 				(font
@@ -1987,7 +2033,7 @@
 			)
 		)
 		(pin "uHeater-" output
-			(at 127 85.09 180)
+			(at 125.73 69.469 180)
 			(uuid "3cd1ad96-6f54-4254-b41d-1d23a36ac840")
 			(effects
 				(font
@@ -1997,7 +2043,7 @@
 			)
 		)
 		(pin "uHeater_EN" input
-			(at 154.94 83.82 0)
+			(at 153.67 68.199 0)
 			(uuid "3c3b783c-08d6-4754-a6c4-f109da574771")
 			(effects
 				(font
