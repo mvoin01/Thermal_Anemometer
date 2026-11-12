@@ -2,7 +2,7 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid "f8950c61-28fa-4a2c-99b2-c5d8892d28b4")
+	(uuid "ddbda6be-43fa-4896-9769-366c46d3aeb4")
 	(paper "A4")
 	(title_block
 		(title "Thermal Anemometer")
@@ -723,20 +723,32 @@
 		)
 	)
 	(junction
-		(at 144.78 90.17)
+		(at 139.7 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3d26afcd-dad5-4d98-92f1-ffaa1710e8a7")
 	)
 	(junction
-		(at 157.48 105.41)
+		(at 142.24 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "960f06ad-5dca-4e06-a64a-971845242a6c")
+	)
+	(junction
+		(at 152.4 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ce93349b-f28d-4aa7-8f9e-e5b000638bfe")
 	)
+	(junction
+		(at 154.94 135.89)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f7bcdf57-86b1-43bd-9259-8c5f064f9918")
+	)
 	(wire
 		(pts
-			(xy 144.78 102.87) (xy 144.78 105.41)
+			(xy 139.7 80.01) (xy 139.7 82.55)
 		)
 		(stroke
 			(width 0)
@@ -746,7 +758,17 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 90.17) (xy 144.78 95.25)
+			(xy 154.94 104.14) (xy 154.94 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17fcd318-5e2f-41b2-92c1-ce203a73cffa")
+	)
+	(wire
+		(pts
+			(xy 139.7 67.31) (xy 139.7 72.39)
 		)
 		(stroke
 			(width 0)
@@ -756,7 +778,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 95.25) (xy 157.48 105.41)
+			(xy 152.4 72.39) (xy 152.4 82.55)
 		)
 		(stroke
 			(width 0)
@@ -766,7 +788,17 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 76.2) (xy 163.83 76.2)
+			(xy 142.24 120.65) (xy 147.32 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23bdd52e-4e0a-4378-911a-3367eb1c7a33")
+	)
+	(wire
+		(pts
+			(xy 152.4 53.34) (xy 158.75 53.34)
 		)
 		(stroke
 			(width 0)
@@ -776,7 +808,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 105.41) (xy 157.48 105.41)
+			(xy 139.7 82.55) (xy 152.4 82.55)
 		)
 		(stroke
 			(width 0)
@@ -786,7 +818,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 82.55) (xy 157.48 82.55)
+			(xy 158.75 59.69) (xy 152.4 59.69)
 		)
 		(stroke
 			(width 0)
@@ -796,7 +828,27 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 73.66) (xy 157.48 76.2)
+			(xy 154.94 125.73) (xy 154.94 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56b050b7-eb9b-4c2e-97fc-d73e604cadf2")
+	)
+	(wire
+		(pts
+			(xy 154.94 106.68) (xy 161.29 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64867954-39d4-4d77-8197-1f7e03172656")
+	)
+	(wire
+		(pts
+			(xy 152.4 50.8) (xy 152.4 53.34)
 		)
 		(stroke
 			(width 0)
@@ -806,7 +858,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 82.55) (xy 157.48 85.09)
+			(xy 152.4 59.69) (xy 152.4 62.23)
 		)
 		(stroke
 			(width 0)
@@ -816,7 +868,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 105.41) (xy 157.48 106.68)
+			(xy 152.4 82.55) (xy 152.4 83.82)
 		)
 		(stroke
 			(width 0)
@@ -826,7 +878,37 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 90.17) (xy 134.62 90.17)
+			(xy 142.24 135.89) (xy 154.94 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "929c91ac-8997-4a01-89a5-dca904733b8b")
+	)
+	(wire
+		(pts
+			(xy 120.65 120.65) (xy 132.08 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "992061d3-27da-4510-921c-07dca5630d49")
+	)
+	(wire
+		(pts
+			(xy 154.94 113.03) (xy 154.94 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b65aca7c-6cc6-48ca-a82f-7600c5963b78")
+	)
+	(wire
+		(pts
+			(xy 118.11 67.31) (xy 129.54 67.31)
 		)
 		(stroke
 			(width 0)
@@ -836,7 +918,57 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 90.17) (xy 144.78 90.17)
+			(xy 154.94 135.89) (xy 154.94 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c722e166-9d31-4629-a141-88a14d25f273")
+	)
+	(wire
+		(pts
+			(xy 142.24 133.35) (xy 142.24 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cefddf2c-e5c0-41ea-97bf-d957bcae0cb3")
+	)
+	(wire
+		(pts
+			(xy 142.24 120.65) (xy 142.24 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2a35065-34ed-4957-b5d9-559712a5106d")
+	)
+	(wire
+		(pts
+			(xy 139.7 120.65) (xy 142.24 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5a3b6ab-c149-477b-a077-1a0d53560d58")
+	)
+	(wire
+		(pts
+			(xy 161.29 113.03) (xy 154.94 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f98de861-1d61-4b67-9659-c64a67df56a7")
+	)
+	(wire
+		(pts
+			(xy 137.16 67.31) (xy 139.7 67.31)
 		)
 		(stroke
 			(width 0)
@@ -846,7 +978,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 90.17) (xy 149.86 90.17)
+			(xy 139.7 67.31) (xy 144.78 67.31)
 		)
 		(stroke
 			(width 0)
@@ -854,9 +986,9 @@
 		)
 		(uuid "fcb4b43e-f6fb-4f6e-9ad1-3aab9dd5692f")
 	)
-	(hierarchical_label "uHeater+"
+	(hierarchical_label "uHeater1+"
 		(shape output)
-		(at 163.83 76.2 0)
+		(at 158.75 53.34 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -865,9 +997,9 @@
 		)
 		(uuid "7657d3b0-3ae7-4a53-8925-42e2d2011dc1")
 	)
-	(hierarchical_label "uHeater_EN"
+	(hierarchical_label "uHeater1_EN"
 		(shape input)
-		(at 123.19 90.17 180)
+		(at 118.11 67.31 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -876,9 +1008,42 @@
 		)
 		(uuid "9803226b-c5f5-4529-b839-f87699a3f53e")
 	)
-	(hierarchical_label "uHeater-"
+	(hierarchical_label "uHeater2+"
 		(shape output)
-		(at 163.83 82.55 0)
+		(at 161.29 106.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a370b8d8-3ec7-4d6d-96ef-a92bd15a52ac")
+	)
+	(hierarchical_label "uHeater2-"
+		(shape output)
+		(at 161.29 113.03 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b4f88842-83ed-4200-a430-13b744ed7160")
+	)
+	(hierarchical_label "uHeater2_EN"
+		(shape input)
+		(at 120.65 120.65 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d3fa226b-f0fb-4dbd-95d3-f3e00a6596f1")
+	)
+	(hierarchical_label "uHeater1-"
+		(shape output)
+		(at 158.75 59.69 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -889,7 +1054,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 138.43 90.17 90)
+		(at 142.24 129.54 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -898,29 +1063,31 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "7432440e-a313-4b35-bdd9-49d9d7c31910")
-		(property "Reference" "R5"
-			(at 138.43 83.82 90)
+		(uuid "0bc5bba8-c063-425a-addb-eb03f569cefd")
+		(property "Reference" "R29"
+			(at 144.78 128.2699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "100"
-			(at 138.43 86.36 90)
+		(property "Value" "100k"
+			(at 144.78 130.8099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 138.43 91.948 90)
+			(at 140.462 129.54 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -931,7 +1098,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 138.43 90.17 0)
+			(at 142.24 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -942,7 +1109,331 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 138.43 90.17 0)
+			(at 142.24 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2b8ec077-ce30-4925-a653-71c8fda65cba")
+		)
+		(pin "2"
+			(uuid "c98b8121-14a1-4f58-9a8a-ab65d55bd120")
+		)
+		(instances
+			(project "Thermal_Anemometer"
+				(path "/1a4ae788-da9e-455d-943f-0a0d3148ba06/d6acedc3-60c2-49c3-9d70-3d7b7b22d41c"
+					(reference "R29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 154.94 137.16 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "26470687-18c5-435a-aa9d-a420a5020945")
+		(property "Reference" "#PWR048"
+			(at 154.94 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 154.94 142.24 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 154.94 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 154.94 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 154.94 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3d0051be-54fe-4851-91cd-473751f9a8fd")
+		)
+		(instances
+			(project "Thermal_Anemometer"
+				(path "/1a4ae788-da9e-455d-943f-0a0d3148ba06/d6acedc3-60c2-49c3-9d70-3d7b7b22d41c"
+					(reference "#PWR048")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+6V")
+		(at 154.94 104.14 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "28bd80fd-0165-4bc7-b099-b6e8d0c3f3dd")
+		(property "Reference" "#PWR047"
+			(at 154.94 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+6V"
+			(at 154.94 99.06 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 154.94 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 154.94 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+6V\""
+			(at 154.94 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "67820d87-d5d2-48ba-a3cd-619b08418c91")
+		)
+		(instances
+			(project "Thermal_Anemometer"
+				(path "/1a4ae788-da9e-455d-943f-0a0d3148ba06/d6acedc3-60c2-49c3-9d70-3d7b7b22d41c"
+					(reference "#PWR047")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:AO3400A")
+		(at 152.4 120.65 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4eba34d3-0f9d-4807-94af-de1e2b826166")
+		(property "Reference" "Q2"
+			(at 158.75 119.3799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "AO3400A"
+			(at 158.75 121.9199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 157.48 122.555 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf"
+			(at 157.48 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"
+			(at 152.4 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "e9f2a0f7-cba1-49b1-b04e-8ce7ae73b870")
+		)
+		(pin "3"
+			(uuid "f89bf5a4-e1ee-4b73-ac0a-bbb2c54fca10")
+		)
+		(pin "1"
+			(uuid "18996785-298e-4cab-a607-ba8992a8bdce")
+		)
+		(instances
+			(project "Thermal_Anemometer"
+				(path "/1a4ae788-da9e-455d-943f-0a0d3148ba06/d6acedc3-60c2-49c3-9d70-3d7b7b22d41c"
+					(reference "Q2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 133.35 67.31 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7432440e-a313-4b35-bdd9-49d9d7c31910")
+		(property "Reference" "R5"
+			(at 133.35 60.96 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100"
+			(at 133.35 63.5 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 133.35 69.088 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 133.35 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 133.35 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -969,7 +1460,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 144.78 99.06 0)
+		(at 139.7 76.2 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -980,7 +1471,7 @@
 		(fields_autoplaced yes)
 		(uuid "c069f4b5-a2a6-41bd-809a-e142ecd7f0b8")
 		(property "Reference" "R6"
-			(at 147.32 97.7899 0)
+			(at 142.24 74.9299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -991,7 +1482,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 147.32 100.3299 0)
+			(at 142.24 77.4699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1002,7 +1493,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 143.002 99.06 90)
+			(at 137.922 76.2 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1013,7 +1504,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 144.78 99.06 0)
+			(at 139.7 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1024,7 +1515,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 144.78 99.06 0)
+			(at 139.7 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1051,7 +1542,7 @@
 	)
 	(symbol
 		(lib_id "power:+6V")
-		(at 157.48 73.66 0)
+		(at 152.4 50.8 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1062,7 +1553,7 @@
 		(fields_autoplaced yes)
 		(uuid "cca9f208-bdd0-4160-92dd-99ee0aebeb5a")
 		(property "Reference" "#PWR015"
-			(at 157.48 77.47 0)
+			(at 152.4 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1073,7 +1564,7 @@
 			)
 		)
 		(property "Value" "+6V"
-			(at 157.48 68.58 0)
+			(at 152.4 45.72 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1083,7 +1574,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 157.48 73.66 0)
+			(at 152.4 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1094,7 +1585,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 157.48 73.66 0)
+			(at 152.4 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1105,7 +1596,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+6V\""
-			(at 157.48 73.66 0)
+			(at 152.4 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1128,8 +1619,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 135.89 120.65 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d2d7dbe3-80ec-4cb9-b8d1-ac9d06d5a09c")
+		(property "Reference" "R28"
+			(at 135.89 114.3 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100"
+			(at 135.89 116.84 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 135.89 122.428 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 135.89 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "e7a9ffcd-3337-452d-968c-4cc9c44f7843")
+		)
+		(pin "1"
+			(uuid "6eae38d0-73bc-476e-9e19-b78b44db7ee4")
+		)
+		(instances
+			(project "Thermal_Anemometer"
+				(path "/1a4ae788-da9e-455d-943f-0a0d3148ba06/d6acedc3-60c2-49c3-9d70-3d7b7b22d41c"
+					(reference "R28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Transistor_FET:AO3400A")
-		(at 154.94 90.17 0)
+		(at 149.86 67.31 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1140,7 +1711,7 @@
 		(fields_autoplaced yes)
 		(uuid "d5d30073-468e-49fb-b5ca-38eb3657f727")
 		(property "Reference" "Q1"
-			(at 161.29 88.8999 0)
+			(at 156.21 66.0399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1151,7 +1722,7 @@
 			)
 		)
 		(property "Value" "AO3400A"
-			(at 161.29 91.4399 0)
+			(at 156.21 68.5799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1162,7 +1733,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 160.02 92.075 0)
+			(at 154.94 69.215 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1175,7 +1746,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf"
-			(at 160.02 93.98 0)
+			(at 154.94 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1187,7 +1758,7 @@
 			)
 		)
 		(property "Description" "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"
-			(at 154.94 90.17 0)
+			(at 149.86 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1217,7 +1788,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 157.48 106.68 0)
+		(at 152.4 83.82 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1228,7 +1799,7 @@
 		(fields_autoplaced yes)
 		(uuid "df8d8b55-9ea2-41aa-8080-3662261a23df")
 		(property "Reference" "#PWR016"
-			(at 157.48 113.03 0)
+			(at 152.4 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1239,7 +1810,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 157.48 111.76 0)
+			(at 152.4 88.9 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1249,7 +1820,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 157.48 106.68 0)
+			(at 152.4 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1260,7 +1831,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 157.48 106.68 0)
+			(at 152.4 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1271,7 +1842,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 157.48 106.68 0)
+			(at 152.4 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

@@ -2,7 +2,7 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid "0973cef3-464c-4366-b8a8-1ec83c9e943e")
+	(uuid "a882cf75-0915-4f15-aac1-297e366d4d5e")
 	(paper "A4")
 	(title_block
 		(title "Thermal Anemometer")
@@ -2046,16 +2046,6 @@
 		)
 		(uuid "43d4b53e-a43a-4e25-81e0-3dc43ed29562")
 	)
-	(text "check if pico already has these pullups, leave unpopulated if it does\n"
-		(exclude_from_sim no)
-		(at 49.784 139.7 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "7b8d3595-02d7-4488-988b-f2c4251d56a7")
-	)
 	(text "(do not power through 3v3 and USB at the same time)\n\n"
 		(exclude_from_sim no)
 		(at 163.068 30.988 0)
@@ -2065,6 +2055,16 @@
 			)
 		)
 		(uuid "84236c18-674f-4fbd-af9c-2a2c1d55b4b0")
+	)
+	(text "check whether AGND should be connected to GND\n"
+		(exclude_from_sim no)
+		(at 180.34 115.57 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9a0026d1-d14b-4605-af6e-673ca47d59c5")
 	)
 	(text "if powering via USB, Jumper must remain open"
 		(exclude_from_sim no)
@@ -2089,10 +2089,10 @@
 		(uuid "429dbaaa-6f66-4cd5-8280-94f856bc6687")
 	)
 	(junction
-		(at 67.31 123.19)
+		(at 69.85 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a3f69004-b9b9-4c0c-8d6a-12c42d33a706")
+		(uuid "d87df74b-7935-4821-b8a6-c987f2d77e88")
 	)
 	(junction
 		(at 166.37 49.53)
@@ -2102,13 +2102,23 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 95.25) (xy 64.77 95.25)
+			(xy 45.72 86.36) (xy 64.77 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "03345db3-597c-4a05-9c4b-822525dc5ddf")
+	)
+	(wire
+		(pts
+			(xy 78.74 137.16) (xy 78.74 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "063d802a-a197-47d6-9a3e-b281d84a2899")
 	)
 	(wire
 		(pts
@@ -2142,13 +2152,13 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 123.19) (xy 67.31 123.19)
+			(xy 78.74 123.19) (xy 69.85 123.19)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0f251bd4-3038-4f0f-ad56-b3c55f4421e5")
+		(uuid "0de3e571-c051-4551-aefd-41bf3060a731")
 	)
 	(wire
 		(pts
@@ -2192,7 +2202,17 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 107.95) (xy 64.77 107.95)
+			(xy 78.74 129.54) (xy 78.74 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1fc67470-a54f-4051-9f46-ae5e4ac3d410")
+	)
+	(wire
+		(pts
+			(xy 45.72 99.06) (xy 64.77 99.06)
 		)
 		(stroke
 			(width 0)
@@ -2252,7 +2272,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 104.14) (xy 64.77 104.14)
+			(xy 45.72 95.25) (xy 64.77 95.25)
 		)
 		(stroke
 			(width 0)
@@ -2272,7 +2292,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 110.49) (xy 64.77 110.49)
+			(xy 45.72 101.6) (xy 64.77 101.6)
 		)
 		(stroke
 			(width 0)
@@ -2282,7 +2302,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 97.79) (xy 64.77 97.79)
+			(xy 45.72 88.9) (xy 64.77 88.9)
 		)
 		(stroke
 			(width 0)
@@ -2299,6 +2319,16 @@
 			(type default)
 		)
 		(uuid "799bec42-d478-433e-8a7e-ab8c8d9c914a")
+	)
+	(wire
+		(pts
+			(xy 41.91 138.43) (xy 78.74 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ac17520-9343-4f46-8363-c698161a52ac")
 	)
 	(wire
 		(pts
@@ -2342,7 +2372,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 92.71) (xy 64.77 92.71)
+			(xy 45.72 83.82) (xy 64.77 83.82)
 		)
 		(stroke
 			(width 0)
@@ -2392,7 +2422,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 101.6) (xy 64.77 101.6)
+			(xy 45.72 92.71) (xy 64.77 92.71)
 		)
 		(stroke
 			(width 0)
@@ -2412,6 +2442,16 @@
 	)
 	(wire
 		(pts
+			(xy 92.71 83.82) (xy 109.22 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd505d2f-e394-49c5-9e93-fcf7a6fa01f4")
+	)
+	(wire
+		(pts
 			(xy 160.02 49.53) (xy 172.72 49.53)
 		)
 		(stroke
@@ -2422,7 +2462,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 123.19) (xy 67.31 123.19)
+			(xy 62.23 123.19) (xy 69.85 123.19)
 		)
 		(stroke
 			(width 0)
@@ -2459,6 +2499,16 @@
 			(type default)
 		)
 		(uuid "df4bd9b4-185b-4e33-9b87-ae52d7dfb9a0")
+	)
+	(wire
+		(pts
+			(xy 45.72 76.2) (xy 62.23 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e87e10ca-67d5-43dd-aef7-7d2e99ea4c27")
 	)
 	(wire
 		(pts
@@ -2521,7 +2571,7 @@
 		(uuid "11bca0ce-4584-4cb0-93b4-edce6d509ac5")
 	)
 	(label "SPI_MISO"
-		(at 52.07 95.25 0)
+		(at 52.07 86.36 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2531,7 +2581,7 @@
 		(uuid "12c43692-8171-4885-871b-3c1cb68d4214")
 	)
 	(label "SPI_nDRDY1"
-		(at 52.07 101.6 0)
+		(at 52.07 92.71 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2551,7 +2601,7 @@
 		(uuid "2f006a4b-d46d-4a80-bc39-a41bf26cbb0c")
 	)
 	(label "nCS2"
-		(at 52.07 110.49 0)
+		(at 52.07 101.6 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2581,7 +2631,7 @@
 		(uuid "35698534-f702-4fac-8d5e-a34135f5de9e")
 	)
 	(label "SPI_CLK"
-		(at 52.07 92.71 0)
+		(at 52.07 83.82 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2601,7 +2651,7 @@
 		(uuid "3da300e5-accc-4386-a85a-5f705025b5c8")
 	)
 	(label "nCS1"
-		(at 52.07 104.14 0)
+		(at 52.07 95.25 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2609,6 +2659,16 @@
 			(justify left bottom)
 		)
 		(uuid "3f32cd69-3e7b-41b7-a962-47bacd6fd529")
+	)
+	(label "ADC_RDY{slash}ALERT"
+		(at 67.31 138.43 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5608d9a1-286f-4b4a-bc3f-faded50fc746")
 	)
 	(label "SPI_nDRDY1"
 		(at 173.99 88.9 180)
@@ -2640,7 +2700,7 @@
 		)
 		(uuid "7aba26e8-f7ff-4aaa-a944-7468b423bb8a")
 	)
-	(label "uHeater_EN"
+	(label "uHeater1_EN"
 		(at 62.23 73.66 180)
 		(effects
 			(font
@@ -2649,6 +2709,16 @@
 			(justify right bottom)
 		)
 		(uuid "8c9b594c-2fa8-4763-8550-ee2fbd069869")
+	)
+	(label "uHeater2_EN"
+		(at 62.23 76.2 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8fb310c1-ab99-47f1-bf5a-8394afa88c4a")
 	)
 	(label "SWCLK"
 		(at 27.94 44.45 0)
@@ -2671,7 +2741,7 @@
 		(uuid "9f5dfb4a-8fff-4064-b364-e94953f43793")
 	)
 	(label "SPI_MOSI"
-		(at 52.07 97.79 0)
+		(at 52.07 88.9 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2701,7 +2771,7 @@
 		(uuid "a4dae43c-f432-4e42-bcb2-f7350e150776")
 	)
 	(label "SPI_nDRDY2"
-		(at 52.07 107.95 0)
+		(at 52.07 99.06 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2709,6 +2779,16 @@
 			(justify left bottom)
 		)
 		(uuid "a8d65098-0d38-4f27-aa4d-31853cd4d430")
+	)
+	(label "uHeater2_EN"
+		(at 109.22 83.82 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "adc175e2-ad3c-48e5-bce1-8c16d4f4a86e")
 	)
 	(label "SPI_nDRDY2"
 		(at 173.99 91.44 180)
@@ -2740,7 +2820,7 @@
 		)
 		(uuid "d032643a-3ac6-43c7-898a-05fb6389f526")
 	)
-	(label "uHeater_EN"
+	(label "uHeater1_EN"
 		(at 90.17 81.28 0)
 		(effects
 			(font
@@ -2770,9 +2850,31 @@
 		)
 		(uuid "fd8ba892-a9b8-4d78-8c5a-c2025f70f419")
 	)
+	(hierarchical_label "ADC_RDY{slash}ALERT"
+		(shape input)
+		(at 41.91 138.43 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "13044674-bf52-4eb8-af8a-7dd429010f99")
+	)
+	(hierarchical_label "uHeater2_EN"
+		(shape output)
+		(at 45.72 76.2 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1b49278c-0951-4a1a-98b0-96da9d39ba44")
+	)
 	(hierarchical_label "nCS1"
 		(shape output)
-		(at 45.72 104.14 180)
+		(at 45.72 95.25 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2783,7 +2885,7 @@
 	)
 	(hierarchical_label "SPI_nDRDY2"
 		(shape input)
-		(at 45.72 107.95 180)
+		(at 45.72 99.06 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2794,7 +2896,7 @@
 	)
 	(hierarchical_label "SPI_CLK"
 		(shape bidirectional)
-		(at 45.72 92.71 180)
+		(at 45.72 83.82 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2827,7 +2929,7 @@
 	)
 	(hierarchical_label "SPI_nDRDY1"
 		(shape input)
-		(at 45.72 101.6 180)
+		(at 45.72 92.71 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2836,7 +2938,7 @@
 		)
 		(uuid "8552f24f-ee60-4bf9-b1fa-a28b2f13d946")
 	)
-	(hierarchical_label "uHeater_EN"
+	(hierarchical_label "uHeater1_EN"
 		(shape output)
 		(at 45.72 73.66 180)
 		(effects
@@ -2849,7 +2951,7 @@
 	)
 	(hierarchical_label "nCS2"
 		(shape output)
-		(at 45.72 110.49 180)
+		(at 45.72 101.6 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2860,7 +2962,7 @@
 	)
 	(hierarchical_label "SPI_MOSI"
 		(shape bidirectional)
-		(at 45.72 97.79 180)
+		(at 45.72 88.9 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2871,7 +2973,7 @@
 	)
 	(hierarchical_label "SPI_MISO"
 		(shape bidirectional)
-		(at 45.72 95.25 180)
+		(at 45.72 86.36 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3326,6 +3428,84 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 154.94 115.57 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2cc2c0c7-893e-4c94-8839-3c3e78bb64fa")
+		(property "Reference" "#PWR045"
+			(at 154.94 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 154.94 120.65 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 154.94 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 154.94 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 154.94 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6ee28fb3-0796-4571-beb5-d6e61c93a669")
+		)
+		(instances
+			(project "Thermal_Anemometer"
+				(path "/1a4ae788-da9e-455d-943f-0a0d3148ba06/62e6fb0e-c182-4402-904d-2bf12f235f15"
+					(reference "#PWR045")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 166.37 59.69 0)
 		(unit 1)
 		(body_style 1)
@@ -3564,7 +3744,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 67.31 123.19 0)
+		(at 69.85 123.19 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3575,7 +3755,7 @@
 		(fields_autoplaced yes)
 		(uuid "7f44be60-fe3f-4e4b-bf65-8c21880d5d00")
 		(property "Reference" "#PWR042"
-			(at 67.31 127 0)
+			(at 69.85 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3586,7 +3766,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 67.31 118.11 0)
+			(at 69.85 118.11 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3596,7 +3776,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 67.31 123.19 0)
+			(at 69.85 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3607,7 +3787,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 67.31 123.19 0)
+			(at 69.85 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3618,7 +3798,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 67.31 123.19 0)
+			(at 69.85 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3635,6 +3815,88 @@
 			(project "Thermal_Anemometer"
 				(path "/1a4ae788-da9e-455d-943f-0a0d3148ba06/62e6fb0e-c182-4402-904d-2bf12f235f15"
 					(reference "#PWR042")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 78.74 133.35 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a56b6516-4a9f-40c4-9dc8-5a60821d23db")
+		(property "Reference" "R27"
+			(at 81.28 132.0799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 81.28 134.6199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 76.962 133.35 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.74 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 78.74 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f503e9e4-2d04-421f-9665-292645347f8c")
+		)
+		(pin "2"
+			(uuid "c756da3e-ca26-40c8-8c83-6d7f6a9ddda3")
+		)
+		(instances
+			(project "Thermal_Anemometer"
+				(path "/1a4ae788-da9e-455d-943f-0a0d3148ba06/62e6fb0e-c182-4402-904d-2bf12f235f15"
+					(reference "R27")
 					(unit 1)
 				)
 			)
