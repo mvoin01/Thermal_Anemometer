@@ -2,7 +2,7 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid "6af94a9d-0058-4e6a-8b1b-4bbb62b7ab94")
+	(uuid "8afbd978-10d1-4acf-818a-7f504f3f9bba")
 	(paper "A4")
 	(title_block
 		(title "Thermal Anemometer")
@@ -2089,6 +2089,18 @@
 		(uuid "429dbaaa-6f66-4cd5-8280-94f856bc6687")
 	)
 	(junction
+		(at 67.31 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4c2858f3-6c66-4dc6-8439-7c345897c08f")
+	)
+	(junction
+		(at 62.23 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6ac7eeb4-8974-4bcd-acae-f53ff1511182")
+	)
+	(junction
 		(at 69.85 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2102,7 +2114,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 86.36) (xy 64.77 86.36)
+			(xy 34.29 88.9) (xy 53.34 88.9)
 		)
 		(stroke
 			(width 0)
@@ -2212,13 +2224,23 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 99.06) (xy 64.77 99.06)
+			(xy 34.29 101.6) (xy 67.31 101.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "2439f75b-dbc3-4616-b716-da776dd86524")
+	)
+	(wire
+		(pts
+			(xy 181.61 83.82) (xy 191.77 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2baf6afb-10ef-4057-898c-b965f5aae586")
 	)
 	(wire
 		(pts
@@ -2272,7 +2294,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 95.25) (xy 64.77 95.25)
+			(xy 34.29 97.79) (xy 62.23 97.79)
 		)
 		(stroke
 			(width 0)
@@ -2292,7 +2314,17 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 101.6) (xy 64.77 101.6)
+			(xy 74.93 96.52) (xy 74.93 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55026b26-7322-411c-9607-f5f098fb0e14")
+	)
+	(wire
+		(pts
+			(xy 34.29 104.14) (xy 74.93 104.14)
 		)
 		(stroke
 			(width 0)
@@ -2302,7 +2334,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 88.9) (xy 64.77 88.9)
+			(xy 34.29 91.44) (xy 53.34 91.44)
 		)
 		(stroke
 			(width 0)
@@ -2362,6 +2394,26 @@
 	)
 	(wire
 		(pts
+			(xy 57.15 87.63) (xy 62.23 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c0c1e3f-7aeb-48a1-bea0-a9e99a5ff7d8")
+	)
+	(wire
+		(pts
+			(xy 62.23 87.63) (xy 67.31 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f802fc1-d713-45a8-be2e-2a0d7e816531")
+	)
+	(wire
+		(pts
 			(xy 27.94 44.45) (xy 43.18 44.45)
 		)
 		(stroke
@@ -2372,7 +2424,17 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 83.82) (xy 64.77 83.82)
+			(xy 67.31 87.63) (xy 67.31 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5056d59-a63d-464a-94ca-a7e3b86d3617")
+	)
+	(wire
+		(pts
+			(xy 34.29 86.36) (xy 53.34 86.36)
 		)
 		(stroke
 			(width 0)
@@ -2422,7 +2484,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 92.71) (xy 64.77 92.71)
+			(xy 34.29 95.25) (xy 57.15 95.25)
 		)
 		(stroke
 			(width 0)
@@ -2482,6 +2544,26 @@
 	)
 	(wire
 		(pts
+			(xy 62.23 87.63) (xy 62.23 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d406edc2-17d5-440b-a929-0627cdd2485b")
+	)
+	(wire
+		(pts
+			(xy 67.31 87.63) (xy 67.31 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4f45357-ef96-4fbd-8750-d7dab3386a24")
+	)
+	(wire
+		(pts
 			(xy 160.02 57.15) (xy 160.02 59.69)
 		)
 		(stroke
@@ -2532,6 +2614,26 @@
 	)
 	(wire
 		(pts
+			(xy 74.93 87.63) (xy 67.31 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f71f61c9-e398-42c9-b5ef-a53b79940724")
+	)
+	(wire
+		(pts
+			(xy 181.61 86.36) (xy 191.77 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd81c76e-167b-4dc9-a98f-e3efcda8c6da")
+	)
+	(wire
+		(pts
 			(xy 27.94 41.91) (xy 43.18 41.91)
 		)
 		(stroke
@@ -2571,7 +2673,7 @@
 		(uuid "11bca0ce-4584-4cb0-93b4-edce6d509ac5")
 	)
 	(label "SPI_MISO"
-		(at 52.07 86.36 0)
+		(at 40.64 88.9 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2581,7 +2683,7 @@
 		(uuid "12c43692-8171-4885-871b-3c1cb68d4214")
 	)
 	(label "SPI_nDRDY1"
-		(at 52.07 92.71 0)
+		(at 40.64 95.25 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2601,7 +2703,7 @@
 		(uuid "2f006a4b-d46d-4a80-bc39-a41bf26cbb0c")
 	)
 	(label "nCS2"
-		(at 52.07 101.6 0)
+		(at 40.64 104.14 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2609,16 +2711,6 @@
 			(justify left bottom)
 		)
 		(uuid "3017c224-a297-42e8-ace9-4630c908d45b")
-	)
-	(label "SPI_CLK"
-		(at 173.99 83.82 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "313247c5-a2ae-4fc1-a6c4-585eaaa8dd3d")
 	)
 	(label "nCS1"
 		(at 173.99 81.28 180)
@@ -2631,7 +2723,7 @@
 		(uuid "35698534-f702-4fac-8d5e-a34135f5de9e")
 	)
 	(label "SPI_CLK"
-		(at 52.07 83.82 0)
+		(at 40.64 86.36 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2651,7 +2743,7 @@
 		(uuid "3da300e5-accc-4386-a85a-5f705025b5c8")
 	)
 	(label "nCS1"
-		(at 52.07 95.25 0)
+		(at 40.64 97.79 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2659,6 +2751,16 @@
 			(justify left bottom)
 		)
 		(uuid "3f32cd69-3e7b-41b7-a962-47bacd6fd529")
+	)
+	(label "SPI_CLK"
+		(at 191.77 83.82 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4187b014-e946-418c-85de-a4c841614065")
 	)
 	(label "ADC_RDY{slash}ALERT"
 		(at 67.31 138.43 180)
@@ -2720,6 +2822,16 @@
 		)
 		(uuid "8fb310c1-ab99-47f1-bf5a-8394afa88c4a")
 	)
+	(label "SPI_MOSI"
+		(at 191.77 86.36 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9d0ea4d1-2c02-4307-ae72-fef1236b27de")
+	)
 	(label "SWCLK"
 		(at 27.94 44.45 0)
 		(effects
@@ -2741,7 +2853,7 @@
 		(uuid "9f5dfb4a-8fff-4064-b364-e94953f43793")
 	)
 	(label "SPI_MOSI"
-		(at 52.07 88.9 0)
+		(at 40.64 91.44 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2760,18 +2872,8 @@
 		)
 		(uuid "a332e763-fffc-4124-a010-32c327ccac48")
 	)
-	(label "SPI_MOSI"
-		(at 173.99 86.36 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "a4dae43c-f432-4e42-bcb2-f7350e150776")
-	)
 	(label "SPI_nDRDY2"
-		(at 52.07 99.06 0)
+		(at 40.64 101.6 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2781,7 +2883,7 @@
 		(uuid "a8d65098-0d38-4f27-aa4d-31853cd4d430")
 	)
 	(label "uHeater2_EN"
-		(at 109.22 83.82 180)
+		(at 106.68 83.82 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2874,7 +2976,7 @@
 	)
 	(hierarchical_label "nCS1"
 		(shape output)
-		(at 45.72 95.25 180)
+		(at 34.29 97.79 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2885,7 +2987,7 @@
 	)
 	(hierarchical_label "SPI_nDRDY2"
 		(shape input)
-		(at 45.72 99.06 180)
+		(at 34.29 101.6 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2896,7 +2998,7 @@
 	)
 	(hierarchical_label "SPI_CLK"
 		(shape bidirectional)
-		(at 45.72 83.82 180)
+		(at 34.29 86.36 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2929,7 +3031,7 @@
 	)
 	(hierarchical_label "SPI_nDRDY1"
 		(shape input)
-		(at 45.72 92.71 180)
+		(at 34.29 95.25 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2951,7 +3053,7 @@
 	)
 	(hierarchical_label "nCS2"
 		(shape output)
-		(at 45.72 101.6 180)
+		(at 34.29 104.14 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2962,7 +3064,7 @@
 	)
 	(hierarchical_label "SPI_MOSI"
 		(shape bidirectional)
-		(at 45.72 88.9 180)
+		(at 34.29 91.44 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2973,7 +3075,7 @@
 	)
 	(hierarchical_label "SPI_MISO"
 		(shape bidirectional)
-		(at 45.72 86.36 180)
+		(at 34.29 88.9 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3257,6 +3359,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 57.15 91.44 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "101e977d-6fad-4286-a4f5-edfa406cfe7b")
+		(property "Reference" "R38"
+			(at 59.69 90.1699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 59.69 92.7099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 55.372 91.44 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 57.15 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 57.15 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0eb54fc2-d7ab-4c24-aee9-080b61c7fa25")
+		)
+		(pin "2"
+			(uuid "14e092c2-1f71-4e67-88ed-7b53581d06bf")
+		)
+		(instances
+			(project "Thermal_Anemometer"
+				(path "/1a4ae788-da9e-455d-943f-0a0d3148ba06/62e6fb0e-c182-4402-904d-2bf12f235f15"
+					(reference "R38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 137.16 40.64 0)
 		(unit 1)
@@ -3505,6 +3689,246 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 177.8 86.36 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3867cf31-ced2-4bbb-8e5f-8449cbe944d6")
+		(property "Reference" "R33"
+			(at 177.8 88.646 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "22"
+			(at 177.8 86.36 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 177.8 88.138 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 177.8 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 177.8 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "0ec14f8e-7db9-41d2-a5d8-b1e63e89bb9f")
+		)
+		(pin "1"
+			(uuid "40f24658-1372-45fe-b816-8b1ec8bd4aae")
+		)
+		(instances
+			(project "Thermal_Anemometer"
+				(path "/1a4ae788-da9e-455d-943f-0a0d3148ba06/62e6fb0e-c182-4402-904d-2bf12f235f15"
+					(reference "R33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 74.93 100.33 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "45f1db8b-cca5-46e9-b317-9993059fdd3a")
+		(property "Reference" "R37"
+			(at 77.47 99.0599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 77.47 101.5999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 73.152 100.33 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 74.93 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 74.93 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8f450788-379a-40f3-80f0-09aaed0cc225")
+		)
+		(pin "2"
+			(uuid "5ce4650a-64f3-4293-949c-065d67b6bf97")
+		)
+		(instances
+			(project "Thermal_Anemometer"
+				(path "/1a4ae788-da9e-455d-943f-0a0d3148ba06/62e6fb0e-c182-4402-904d-2bf12f235f15"
+					(reference "R37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 177.8 83.82 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5191baed-acef-4183-a453-ada0d2251218")
+		(property "Reference" "R34"
+			(at 177.8 86.106 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "22"
+			(at 177.8 83.82 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 177.8 85.598 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 177.8 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 177.8 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "63473b9f-941b-456b-ac31-9e8a2f6df9a0")
+		)
+		(pin "1"
+			(uuid "ef3a6c02-b35d-4175-bf7f-ef2020498e86")
+		)
+		(instances
+			(project "Thermal_Anemometer"
+				(path "/1a4ae788-da9e-455d-943f-0a0d3148ba06/62e6fb0e-c182-4402-904d-2bf12f235f15"
+					(reference "R34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 166.37 59.69 0)
 		(unit 1)
@@ -3577,6 +4001,84 @@
 			(project "Thermal_Anemometer"
 				(path "/1a4ae788-da9e-455d-943f-0a0d3148ba06/62e6fb0e-c182-4402-904d-2bf12f235f15"
 					(reference "#PWR041")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 67.31 86.36 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "683ab629-1908-4c12-8867-03171ad0bb2f")
+		(property "Reference" "#PWR052"
+			(at 67.31 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 67.31 81.28 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 67.31 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 67.31 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 67.31 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "32e421a7-e357-4f48-9631-c9ae6537ad6b")
+		)
+		(instances
+			(project "Thermal_Anemometer"
+				(path "/1a4ae788-da9e-455d-943f-0a0d3148ba06/62e6fb0e-c182-4402-904d-2bf12f235f15"
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -3737,6 +4239,88 @@
 			(project "Thermal_Anemometer"
 				(path "/1a4ae788-da9e-455d-943f-0a0d3148ba06/62e6fb0e-c182-4402-904d-2bf12f235f15"
 					(reference "R26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 67.31 97.79 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7ce78d35-2cd1-474f-9c26-e639892677c9")
+		(property "Reference" "R36"
+			(at 69.85 96.5199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 69.85 99.0599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 65.532 97.79 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 67.31 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 67.31 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "202fafed-c6e9-4e86-96af-9ed69a5d5aae")
+		)
+		(pin "2"
+			(uuid "f4a813c0-e047-4067-b259-43276878d4f0")
+		)
+		(instances
+			(project "Thermal_Anemometer"
+				(path "/1a4ae788-da9e-455d-943f-0a0d3148ba06/62e6fb0e-c182-4402-904d-2bf12f235f15"
+					(reference "R36")
 					(unit 1)
 				)
 			)
@@ -4061,6 +4645,88 @@
 			(project "Thermal_Anemometer"
 				(path "/1a4ae788-da9e-455d-943f-0a0d3148ba06/62e6fb0e-c182-4402-904d-2bf12f235f15"
 					(reference "JP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 62.23 93.98 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c89a03ef-66e0-44e6-bb41-971592d2a135")
+		(property "Reference" "R35"
+			(at 64.77 92.7099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 64.77 95.2499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 60.452 93.98 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 62.23 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 62.23 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a4425ab7-4539-4a46-9efb-4c04aec030da")
+		)
+		(pin "2"
+			(uuid "7b3ebe2a-71f5-412a-98b6-8bf59afbb2fe")
+		)
+		(instances
+			(project "Thermal_Anemometer"
+				(path "/1a4ae788-da9e-455d-943f-0a0d3148ba06/62e6fb0e-c182-4402-904d-2bf12f235f15"
+					(reference "R35")
 					(unit 1)
 				)
 			)

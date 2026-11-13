@@ -2,7 +2,7 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid "b6c0b831-0594-4082-bc26-8f0e882536e9")
+	(uuid "40b42746-9d18-400f-aa13-0c641c539ed5")
 	(paper "A4")
 	(title_block
 		(title "Thermal Anemometer")
@@ -2953,7 +2953,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "22"
 			(at 185.42 128.27 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3352,7 +3352,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "22"
 			(at 182.88 57.15 90)
 			(show_name no)
 			(do_not_autoplace no)
