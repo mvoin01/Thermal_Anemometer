@@ -2,7 +2,7 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid "86a12170-a60d-47b2-817e-c6e969240462")
+	(uuid "d1d38dc3-be9c-4b97-a194-5538e5b38723")
 	(paper "A4")
 	(title_block
 		(title "Thermal Anemometer")
@@ -673,7 +673,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Regulator_Linear:AMS1117-3.3"
+		(symbol "Regulator_Linear:NCP1117-3.3_SOT223"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -689,7 +689,7 @@
 					)
 				)
 			)
-			(property "Value" "AMS1117-3.3"
+			(property "Value" "NCP1117-3.3_SOT223"
 				(at 0 3.175 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -711,7 +711,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "http://www.advanced-monolithic.com/pdf/ds1117.pdf"
+			(property "Datasheet" "http://www.onsemi.com/pub_link/Collateral/NCP1117-D.PDF"
 				(at 2.54 -6.35 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -722,7 +722,7 @@
 					)
 				)
 			)
-			(property "Description" "1A Low Dropout regulator, positive, 3.3V fixed output, SOT-223"
+			(property "Description" "1A Low drop-out regulator, Fixed Output 3.3V, SOT-223"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -733,7 +733,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "linear regulator ldo fixed positive"
+			(property "ki_keywords" "REGULATOR LDO 3.3V"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -755,7 +755,7 @@
 					)
 				)
 			)
-			(symbol "AMS1117-3.3_0_1"
+			(symbol "NCP1117-3.3_SOT223_0_1"
 				(rectangle
 					(start -5.08 -5.08)
 					(end 5.08 1.905)
@@ -768,7 +768,7 @@
 					)
 				)
 			)
-			(symbol "AMS1117-3.3_1_1"
+			(symbol "NCP1117-3.3_SOT223_1_1"
 				(pin power_in line
 					(at 0 -7.62 90)
 					(length 2.54)
@@ -1632,6 +1632,16 @@
 		)
 		(uuid "62206412-021b-477f-9a57-0c3289b224d5")
 	)
+	(text "SMBJ15A"
+		(exclude_from_sim no)
+		(at 66.548 55.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "64ce91c2-2312-4e3e-8e8f-fc3fddd348dc")
+	)
 	(text "V_OUT = 5.992V\n"
 		(exclude_from_sim no)
 		(at 185.42 43.18 0)
@@ -2412,7 +2422,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 201.6252 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -2572,7 +2582,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 87.3252 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -2652,7 +2662,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 158.75 51.1048 0)
 			(hide yes)
 			(show_name no)
@@ -2701,7 +2711,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Regulator_Linear:AMS1117-3.3")
+		(lib_id "Regulator_Linear:NCP1117-3.3_SOT223")
 		(at 137.16 118.11 0)
 		(unit 1)
 		(body_style 1)
@@ -2711,8 +2721,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "30dc1e05-738c-42e2-9100-c563a7fd417b")
-		(property "Reference" "U2"
+		(uuid "4bf4a8ab-16b8-4215-a09e-2b3c76ea9d6f")
+		(property "Reference" "U7"
 			(at 137.16 111.76 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2722,7 +2732,7 @@
 				)
 			)
 		)
-		(property "Value" "AMS1117-3.3"
+		(property "Value" "NCP1117-3.3_SOT223"
 			(at 137.16 114.3 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2743,7 +2753,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.advanced-monolithic.com/pdf/ds1117.pdf"
+		(property "Datasheet" "http://www.onsemi.com/pub_link/Collateral/NCP1117-D.PDF"
 			(at 139.7 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -2754,7 +2764,7 @@
 				)
 			)
 		)
-		(property "Description" "1A Low Dropout regulator, positive, 3.3V fixed output, SOT-223"
+		(property "Description" "1A Low drop-out regulator, Fixed Output 3.3V, SOT-223"
 			(at 137.16 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -2765,19 +2775,19 @@
 				)
 			)
 		)
-		(pin "2"
-			(uuid "c996361f-74f1-475a-bfc2-d7651bdc8378")
-		)
 		(pin "3"
-			(uuid "5c06de2f-cb19-4095-82a2-e01882752a0b")
+			(uuid "49139e0e-fadf-4f68-9d45-3af0f1e908bf")
 		)
 		(pin "1"
-			(uuid "b392ebb0-1785-4e49-83df-833f8f636378")
+			(uuid "504e556b-514d-43b9-aa96-4cdbb60c4e12")
+		)
+		(pin "2"
+			(uuid "1d77064c-e0bb-48e4-a322-20851499f826")
 		)
 		(instances
 			(project "Thermal_Anemometer"
 				(path "/1a4ae788-da9e-455d-943f-0a0d3148ba06/1ca572dd-078e-472c-9cd3-8d14f26c455e"
-					(reference "U2")
+					(reference "U7")
 					(unit 1)
 				)
 			)
@@ -2895,7 +2905,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 116.5352 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -2977,7 +2987,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 174.752 55.88 90)
 			(hide yes)
 			(show_name no)
@@ -3137,7 +3147,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 168.6052 127 0)
 			(hide yes)
 			(show_name no)
@@ -3219,7 +3229,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Module:Arduino_UNO_R3"
+		(property "Footprint" "Diode_SMD:D_SMB_Handsoldering"
 			(at 72.39 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -3334,7 +3344,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 188.9252 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -3978,7 +3988,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 174.752 63.5 90)
 			(hide yes)
 			(show_name no)
@@ -4138,7 +4148,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 111.252 62.23 90)
 			(hide yes)
 			(show_name no)
@@ -4298,7 +4308,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 100.0252 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -4380,7 +4390,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 111.252 53.34 90)
 			(hide yes)
 			(show_name no)
@@ -4540,7 +4550,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 157.1752 127 0)
 			(hide yes)
 			(show_name no)

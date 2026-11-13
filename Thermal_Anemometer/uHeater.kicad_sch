@@ -2,7 +2,7 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid "b86484dd-7c79-442d-9ddf-f7705335c970")
+	(uuid "14d935b8-14e3-430b-aa6a-6bf9f29682fe")
 	(paper "A4")
 	(title_block
 		(title "Thermal Anemometer")
@@ -1086,7 +1086,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 140.462 129.54 90)
 			(hide yes)
 			(show_name no)
@@ -1410,7 +1410,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 133.35 69.088 90)
 			(hide yes)
 			(show_name no)
@@ -1492,7 +1492,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 137.922 76.2 90)
 			(hide yes)
 			(show_name no)
@@ -1650,7 +1650,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 135.89 122.428 90)
 			(hide yes)
 			(show_name no)

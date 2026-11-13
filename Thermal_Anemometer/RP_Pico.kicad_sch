@@ -2,7 +2,7 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid "84d0e582-6a63-41a6-8bb2-578143ea1757")
+	(uuid "9095b710-1e26-41c2-9a14-69a58b181b2e")
 	(paper "A4")
 	(title_block
 		(title "Thermal Anemometer")
@@ -3366,7 +3366,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical_SMD"
 			(at 48.26 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -3694,7 +3694,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 68.072 130.81 90)
 			(hide yes)
 			(show_name no)
@@ -3854,7 +3854,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 76.962 133.35 90)
 			(hide yes)
 			(show_name no)
@@ -3936,7 +3936,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 160.9852 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -4178,7 +4178,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 173.6852 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -4260,7 +4260,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 60.452 128.27 90)
 			(hide yes)
 			(show_name no)
