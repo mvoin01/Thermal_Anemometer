@@ -1320,7 +1320,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 87.63) (xy 62.23 87.63)
+			(xy 34.29 87.63) (xy 66.04 87.63)
 		)
 		(stroke
 			(width 0)
@@ -1738,15 +1738,15 @@
 		)
 		(uuid "fbd525d2-9957-437e-b286-c36258f57cb7")
 	)
-	(label "uHeater1+"
-		(at 50.8 87.63 0)
+	(label "PT1000_4Wire_2-"
+		(at 62.23 123.19 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
-		(uuid "01ce9a53-54d5-4ceb-bd78-0e2f0715c764")
+		(uuid "0235e116-9728-43d5-bbf4-1db7667a36fe")
 	)
 	(label "PT1000_2-"
 		(at 107.95 135.89 0)
@@ -1798,16 +1798,6 @@
 		)
 		(uuid "2035c675-fc9a-46d0-91d9-1bf9a64e2e1d")
 	)
-	(label "PT1000_2+"
-		(at 44.45 107.95 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2760710a-7701-4841-9a68-ed79edf700fc")
-	)
 	(label "SPI_nDRDY1"
 		(at 163.83 129.54 0)
 		(effects
@@ -1817,16 +1807,6 @@
 			(justify left bottom)
 		)
 		(uuid "2fe382da-5095-4ed3-a732-e2788326c380")
-	)
-	(label "uHeater1-"
-		(at 50.8 90.17 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3c0b5eba-cc6f-45d9-b4bf-207c5f615990")
 	)
 	(label "PT1000_4Wire_1-"
 		(at 107.95 128.27 0)
@@ -1838,16 +1818,6 @@
 		)
 		(uuid "3fc510d5-44bc-47f1-a8e4-9237a5d1a1eb")
 	)
-	(label "PT1000_4Wire_2+"
-		(at 44.45 105.41 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4701041f-4be3-48ae-b806-8845373e89c5")
-	)
 	(label "uHeater1+"
 		(at 114.3 66.04 0)
 		(effects
@@ -1857,6 +1827,16 @@
 			(justify left bottom)
 		)
 		(uuid "4799652e-8442-4797-8d63-5e6efa58c23a")
+	)
+	(label "uHeater2-"
+		(at 62.23 100.33 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5624e620-9c43-434e-ae29-b53f3081a74c")
 	)
 	(label "uHeater2-"
 		(at 114.3 74.93 0)
@@ -1908,15 +1888,15 @@
 		)
 		(uuid "5e6be5e3-ceb6-4e3f-8213-2ba7f54025eb")
 	)
-	(label "uHeater2+"
-		(at 50.8 118.11 0)
+	(label "PT1000_4Wire_1+"
+		(at 62.23 105.41 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
-		(uuid "6659f463-37bc-4769-b0fc-630ffac2d4e4")
+		(uuid "6042750c-f872-4831-bbf3-3f9db17ef6cc")
 	)
 	(label "PT1000_4Wire_1+"
 		(at 107.95 120.65 0)
@@ -1927,6 +1907,16 @@
 			(justify left bottom)
 		)
 		(uuid "67df0bda-5e53-497b-848c-6f926698b072")
+	)
+	(label "PT1000_2+"
+		(at 62.23 118.11 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "68add144-f384-4b26-906a-59267b77b4a9")
 	)
 	(label "nCS2"
 		(at 163.83 138.43 0)
@@ -1958,16 +1948,6 @@
 		)
 		(uuid "6db26f18-8051-4782-bf39-c6d36f236716")
 	)
-	(label "PT1000_4Wire_1-"
-		(at 44.45 102.87 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7a448f08-8464-46b8-9334-fdb194f24dd2")
-	)
 	(label "uHeater1_EN"
 		(at 195.58 67.31 180)
 		(effects
@@ -1988,25 +1968,15 @@
 		)
 		(uuid "7d203c9e-15a4-48ff-b4fd-33a6c1a57845")
 	)
-	(label "PT1000_1+"
-		(at 44.45 97.79 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7f132df1-3560-45d9-b121-7dbccb7d2dca")
-	)
 	(label "PT1000_2-"
-		(at 44.45 110.49 0)
+		(at 62.23 120.65 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
-		(uuid "82b398e7-56bc-4583-9551-af78ddedb488")
+		(uuid "8264bfa7-a721-4477-addb-286b6f747797")
 	)
 	(label "PT1000_1+"
 		(at 25.4 142.24 0)
@@ -2027,6 +1997,36 @@
 			(justify left bottom)
 		)
 		(uuid "87622be2-608b-4991-af5e-f6b2e603a17d")
+	)
+	(label "PT1000_1+"
+		(at 62.23 107.95 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9065d9ed-73d7-4a13-b1ec-6eb3a7cd218a")
+	)
+	(label "uHeater1-"
+		(at 62.23 92.71 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "91700728-400b-451f-895e-ea6f6f62ca82")
+	)
+	(label "uHeater1+"
+		(at 62.23 90.17 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "94c47ff7-089e-48cb-8c36-a60c717acb4f")
 	)
 	(label "PT1000_2-"
 		(at 25.4 172.72 0)
@@ -2098,6 +2098,16 @@
 		)
 		(uuid "bfa3eada-409e-41ba-b833-153970879242")
 	)
+	(label "PT1000_4Wire_1-"
+		(at 62.23 113.03 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c0ecf84e-b338-47aa-9817-61906a21741a")
+	)
 	(label "uHeater2+"
 		(at 114.3 72.39 0)
 		(effects
@@ -2118,35 +2128,25 @@
 		)
 		(uuid "c5275881-84c8-4e72-bad0-e2f2aaa5b193")
 	)
-	(label "uHeater2-"
-		(at 50.8 120.65 0)
+	(label "PT1000_4Wire_2+"
+		(at 62.23 115.57 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
-		(uuid "c5332597-c843-4b66-8e81-a52669edaa4e")
+		(uuid "ce018050-f53f-4ad6-b9f6-9b59b7718be6")
 	)
-	(label "PT1000_4Wire_1+"
-		(at 44.45 95.25 0)
+	(label "uHeater2+"
+		(at 62.23 97.79 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
-		(uuid "c618f764-eaa0-453b-8f6f-fae95dbafdb4")
-	)
-	(label "PT1000_1-"
-		(at 44.45 100.33 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c62cf0d9-d726-4af8-8342-cdef167c0ece")
+		(uuid "debe74bc-0dba-4c60-8877-95bf4d9601a7")
 	)
 	(label "PT1000_1-"
 		(at 25.4 152.4 0)
@@ -2198,15 +2198,93 @@
 		)
 		(uuid "f2fc4a7d-5af4-4d39-91d8-f203ef3c0fe1")
 	)
-	(label "PT1000_4Wire_2-"
-		(at 44.45 113.03 0)
+	(label "PT1000_1-"
+		(at 62.23 110.49 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
-		(uuid "fffb7f04-5c26-4d4c-bf2e-812e0c86a06e")
+		(uuid "f8a57c9f-7427-45fd-9215-a7312d1cd4ba")
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 66.04 87.63 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1b27f531-f151-48b2-866a-31e40872d8e4")
+		(property "Reference" "#PWR03"
+			(at 66.04 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+12V"
+			(at 66.04 82.55 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 66.04 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 66.04 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "133d067e-4864-443f-83e8-0fdc6e8f91c4")
+		)
+		(instances
+			(project "Thermal_Anemometer"
+				(path "/1a4ae788-da9e-455d-943f-0a0d3148ba06"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Jumper:Jumper_2_Open")
@@ -2370,7 +2448,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 62.23 123.19 0)
+		(at 62.23 85.09 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2379,9 +2457,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "a9098159-54be-49a0-944c-d0f8687b77e4")
+		(uuid "7fb0aaff-94f4-495a-9fb6-78ddd63a8f1d")
 		(property "Reference" "#PWR04"
-			(at 62.23 129.54 0)
+			(at 62.23 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2392,7 +2470,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 62.23 128.27 0)
+			(at 62.23 90.17 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2402,7 +2480,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 62.23 123.19 0)
+			(at 62.23 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2413,7 +2491,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 62.23 123.19 0)
+			(at 62.23 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2424,7 +2502,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 62.23 123.19 0)
+			(at 62.23 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2435,7 +2513,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "2d2bd54f-bdfa-4f7b-a24f-d0d467735401")
+			(uuid "cadbe8a2-6a4b-4958-bd50-79ddbf68d296")
 		)
 		(instances
 			(project "Thermal_Anemometer"
@@ -2643,84 +2721,6 @@
 			(project "Thermal_Anemometer"
 				(path "/1a4ae788-da9e-455d-943f-0a0d3148ba06"
 					(reference "J3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+12V")
-		(at 62.23 85.09 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d58021a5-c4d0-44dd-a738-1f0e2b6420bc")
-		(property "Reference" "#PWR03"
-			(at 62.23 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+12V"
-			(at 62.23 80.01 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 62.23 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 62.23 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 62.23 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "90ba3c41-0ee8-434e-9eb4-7d339ef32a03")
-		)
-		(instances
-			(project "Thermal_Anemometer"
-				(path "/1a4ae788-da9e-455d-943f-0a0d3148ba06"
-					(reference "#PWR03")
 					(unit 1)
 				)
 			)

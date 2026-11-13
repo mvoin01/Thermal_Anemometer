@@ -2,7 +2,7 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid "40b42746-9d18-400f-aa13-0c641c539ed5")
+	(uuid "b5a9f584-459e-4ffb-8fb0-32236acffb90")
 	(paper "A4")
 	(title_block
 		(title "Thermal Anemometer")
@@ -455,6 +455,172 @@
 					(at 0 -3.81 90)
 					(length 1.27)
 					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Jumper:Jumper_2_Open"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "JP"
+				(at 0 2.794 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Jumper_2_Open"
+				(at 0 -2.286 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Jumper, 2-pole, open"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Jumper SPST"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Jumper* TestPoint*2Pads* TestPoint*Bridge*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Jumper_2_Open_0_0"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_2_Open_0_1"
+				(arc
+					(start -1.524 1.27)
+					(mid 0 1.778)
+					(end 1.524 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_2_Open_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "B"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1393,6 +1559,16 @@
 	)
 	(wire
 		(pts
+			(xy 53.34 101.6) (xy 53.34 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10c4d75b-d6d6-4ad0-9850-4338772d2cb4")
+	)
+	(wire
+		(pts
 			(xy 60.96 33.02) (xy 74.93 33.02)
 		)
 		(stroke
@@ -1420,6 +1596,16 @@
 			(type default)
 		)
 		(uuid "1547c1f5-7166-414a-be38-1448c8a6049b")
+	)
+	(wire
+		(pts
+			(xy 72.39 99.06) (xy 86.36 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1827a564-9446-463d-86be-639016ec891e")
 	)
 	(wire
 		(pts
@@ -1480,6 +1666,16 @@
 			(type default)
 		)
 		(uuid "31eeefb1-fa30-4217-8e9f-3279218edd10")
+	)
+	(wire
+		(pts
+			(xy 67.31 92.71) (xy 81.28 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32d39037-998c-4121-b98f-51d819f546dd")
 	)
 	(wire
 		(pts
@@ -1703,6 +1899,16 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 105.41) (xy 80.01 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e73934a-c48d-480b-9ae4-0f505512b73c")
+	)
+	(wire
+		(pts
 			(xy 163.83 151.13) (xy 163.83 154.94)
 		)
 		(stroke
@@ -1763,7 +1969,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 101.6) (xy 48.26 101.6)
+			(xy 30.48 101.6) (xy 53.34 101.6)
 		)
 		(stroke
 			(width 0)
@@ -1790,6 +1996,16 @@
 			(type default)
 		)
 		(uuid "a7b1e430-bf70-4539-b2a5-22496e9b3db8")
+	)
+	(wire
+		(pts
+			(xy 53.34 105.41) (xy 55.88 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9260f23-6b54-4912-97d7-3c87319b6743")
 	)
 	(wire
 		(pts
@@ -1830,6 +2046,16 @@
 			(type default)
 		)
 		(uuid "aee6d05b-cfb0-4fb9-adc8-7ddd5a3eacad")
+	)
+	(wire
+		(pts
+			(xy 54.61 88.9) (xy 54.61 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1a641f8-66f8-4881-984f-09d0b6e957d7")
 	)
 	(wire
 		(pts
@@ -1913,7 +2139,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 88.9) (xy 48.26 88.9)
+			(xy 30.48 88.9) (xy 54.61 88.9)
 		)
 		(stroke
 			(width 0)
@@ -2103,6 +2329,16 @@
 	)
 	(wire
 		(pts
+			(xy 54.61 92.71) (xy 57.15 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9b78428-38b6-4852-9af3-7ae75c769eb7")
+	)
+	(wire
+		(pts
 			(xy 120.65 36.83) (xy 120.65 39.37)
 		)
 		(stroke
@@ -2143,13 +2379,23 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 99.06) (xy 48.26 99.06)
+			(xy 30.48 99.06) (xy 62.23 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "f7df9df0-ffa4-445f-924b-26eb1d547f8c")
+	)
+	(wire
+		(pts
+			(xy 58.42 86.36) (xy 72.39 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fdb42ed0-d0c4-454a-a24a-77d5353ac945")
 	)
 	(wire
 		(pts
@@ -2170,6 +2416,16 @@
 			(justify left bottom)
 		)
 		(uuid "0036410a-a24c-41f1-88af-02cbde4ee8f4")
+	)
+	(label "RTDIN2-"
+		(at 80.01 105.41 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "04f6eef4-5f76-40f6-a301-b336f99b0203")
 	)
 	(label "SPI_nCS1"
 		(at 233.68 83.82 0)
@@ -2210,6 +2466,16 @@
 			(justify right bottom)
 		)
 		(uuid "2e27941a-4ad5-41a0-a264-c580d08de1bf")
+	)
+	(label "RTDIN1-"
+		(at 81.28 92.71 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "325a6df6-9992-46eb-a75a-bf8cacd8275a")
 	)
 	(label "RTDIN1-"
 		(at 113.03 143.51 180)
@@ -2261,6 +2527,16 @@
 		)
 		(uuid "522c892c-42d0-4fe1-ac2b-2fa935b78e4c")
 	)
+	(label "RTDIN1+"
+		(at 72.39 86.36 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5a34cb92-5e06-4e4e-943f-c9f322bc6977")
+	)
 	(label "REFIN1+"
 		(at 135.89 99.06 180)
 		(effects
@@ -2290,16 +2566,6 @@
 			(justify right bottom)
 		)
 		(uuid "60bd2bd3-5fe2-4583-93f1-92cc0636d2a5")
-	)
-	(label "RTDIN2+"
-		(at 48.26 99.06 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "621eea79-e533-4b6e-94f8-5daf1bbbd3ef")
 	)
 	(label "REFIN1+"
 		(at 142.24 120.65 180)
@@ -2331,16 +2597,6 @@
 		)
 		(uuid "6f994697-7de8-4274-b459-1d97559813c8")
 	)
-	(label "RTDIN2-"
-		(at 48.26 101.6 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "783666a0-4035-4284-a9ab-709ccce35def")
-	)
 	(label "SPI_MOSI"
 		(at 195.58 120.65 180)
 		(effects
@@ -2370,16 +2626,6 @@
 			(justify right bottom)
 		)
 		(uuid "8282a8bd-98af-4529-8d5a-a5312a1763e3")
-	)
-	(label "RTDIN1-"
-		(at 48.26 88.9 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "82d9b85c-7842-437c-a8fc-b79c7c204bba")
 	)
 	(label "4WIRE2-"
 		(at 127 74.93 0)
@@ -2551,16 +2797,6 @@
 		)
 		(uuid "d1a27524-d27e-4f71-a0a9-befe9a730eda")
 	)
-	(label "RTDIN1+"
-		(at 48.26 86.36 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "d9b279da-c942-4ca8-84c9-ed5f13e1e1c4")
-	)
 	(label "SPI_nDRDY1"
 		(at 233.68 95.25 0)
 		(effects
@@ -2580,6 +2816,16 @@
 			(justify right bottom)
 		)
 		(uuid "dc4bbe2c-5aeb-4e4b-aa47-e0dafd61796e")
+	)
+	(label "RTDIN2+"
+		(at 86.36 99.06 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e3df9aa7-f2ad-441d-a8ff-91d0f79c3372")
 	)
 	(label "REFIN2-"
 		(at 133.35 39.37 180)
@@ -3847,6 +4093,86 @@
 		)
 	)
 	(symbol
+		(lib_id "Jumper:Jumper_2_Open")
+		(at 67.31 99.06 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "923ced13-3354-42b1-b8fd-ef0a7ba011a8")
+		(property "Reference" "JP12"
+			(at 67.31 93.98 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Jumper_2_Open"
+			(at 67.31 96.52 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm"
+			(at 67.31 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 67.31 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, open"
+			(at 67.31 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "eb1047ea-87e0-4150-aa7c-3201fecd05b6")
+		)
+		(pin "1"
+			(uuid "ef671a7e-89b0-4ad3-ba27-9cbbcc4b841a")
+		)
+		(instances
+			(project "Thermal_Anemometer"
+				(path "/1a4ae788-da9e-455d-943f-0a0d3148ba06/ccdc9088-82b0-4725-99c3-cfff00013011"
+					(reference "JP12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 120.65 33.02 180)
 		(unit 1)
@@ -3880,7 +4206,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 122.428 33.02 90)
 			(hide yes)
 			(show_name no)
@@ -3923,6 +4249,85 @@
 			(project "Thermal_Anemometer"
 				(path "/1a4ae788-da9e-455d-943f-0a0d3148ba06/ccdc9088-82b0-4725-99c3-cfff00013011"
 					(reference "R24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:Jumper_2_Open")
+		(at 62.23 92.71 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9dee3808-15bd-4f6f-a44d-46a0079f8331")
+		(property "Reference" "JP11"
+			(at 62.484 88.646 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Jumper_2_Open"
+			(at 62.23 90.17 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm"
+			(at 62.23 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 62.23 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, open"
+			(at 62.23 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "69629256-6cb7-4c5a-89e0-3a248258dbeb")
+		)
+		(pin "1"
+			(uuid "6a7874b8-f081-4629-9268-9641c4dc50a1")
+		)
+		(instances
+			(project "Thermal_Anemometer"
+				(path "/1a4ae788-da9e-455d-943f-0a0d3148ba06/ccdc9088-82b0-4725-99c3-cfff00013011"
+					(reference "JP11")
 					(unit 1)
 				)
 			)
@@ -4725,6 +5130,86 @@
 		)
 	)
 	(symbol
+		(lib_id "Jumper:Jumper_2_Open")
+		(at 53.34 86.36 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e24929b4-090f-41e3-b4ed-31afb58ebd3b")
+		(property "Reference" "JP10"
+			(at 53.34 81.28 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Jumper_2_Open"
+			(at 53.34 83.82 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm"
+			(at 53.34 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 53.34 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, open"
+			(at 53.34 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "6593da27-cd19-40fe-a853-e54fafdd4188")
+		)
+		(pin "1"
+			(uuid "d69f92b3-0365-45d2-8457-9e6bb8fa15a1")
+		)
+		(instances
+			(project "Thermal_Anemometer"
+				(path "/1a4ae788-da9e-455d-943f-0a0d3148ba06/ccdc9088-82b0-4725-99c3-cfff00013011"
+					(reference "JP10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3VA")
 		(at 156.21 36.83 0)
 		(unit 1)
@@ -4953,6 +5438,86 @@
 			(project "Thermal_Anemometer"
 				(path "/1a4ae788-da9e-455d-943f-0a0d3148ba06/ccdc9088-82b0-4725-99c3-cfff00013011"
 					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:Jumper_2_Open")
+		(at 60.96 105.41 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f2dd91ca-53b2-4272-9468-f60e166cacf9")
+		(property "Reference" "JP13"
+			(at 60.96 100.33 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Jumper_2_Open"
+			(at 60.96 102.87 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm"
+			(at 60.96 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.96 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, open"
+			(at 60.96 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "2b0d274c-a2db-4cd4-b3bb-bb90aec2368f")
+		)
+		(pin "1"
+			(uuid "6c24e594-2880-44df-87dc-622bfd3c2fb9")
+		)
+		(instances
+			(project "Thermal_Anemometer"
+				(path "/1a4ae788-da9e-455d-943f-0a0d3148ba06/ccdc9088-82b0-4725-99c3-cfff00013011"
+					(reference "JP13")
 					(unit 1)
 				)
 			)
