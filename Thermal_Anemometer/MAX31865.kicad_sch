@@ -2,7 +2,7 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid "e2449b8e-a7eb-4519-af3b-12fbdc32309c")
+	(uuid "b6c0b831-0594-4082-bc26-8f0e882536e9")
 	(paper "A4")
 	(title_block
 		(title "Thermal Anemometer")
@@ -1337,16 +1337,6 @@
 		)
 		(uuid "62334c4f-b7df-43a9-b5fd-5f4c84061ccc")
 	)
-	(text "check ISENSOR\n"
-		(exclude_from_sim no)
-		(at 120.142 84.836 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "ed74c65f-5bb5-437c-b050-6eb52f47a41f")
-	)
 	(junction
 		(at 60.96 33.02)
 		(diameter 0)
@@ -1380,6 +1370,16 @@
 			(type default)
 		)
 		(uuid "08e2cacc-2461-4320-9b48-e8fdfe79233e")
+	)
+	(wire
+		(pts
+			(xy 127 54.61) (xy 127 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e20fad4-e10b-47f5-a8a2-942622da1530")
 	)
 	(wire
 		(pts
@@ -1730,6 +1730,16 @@
 			(type default)
 		)
 		(uuid "87e71ad6-96de-4992-bfcc-7087928b63df")
+	)
+	(wire
+		(pts
+			(xy 129.54 125.73) (xy 129.54 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88770a02-a87e-4c5e-8c11-34e66a2f62a2")
 	)
 	(wire
 		(pts
@@ -2151,7 +2161,7 @@
 		)
 		(uuid "fffb571f-bfe2-451d-aaab-a1a280c0efd1")
 	)
-	(label "RTDIN1+"
+	(label "RTDIN2+"
 		(at 127 67.31 0)
 		(effects
 			(font
@@ -2181,7 +2191,7 @@
 		)
 		(uuid "1b88141b-3662-48a5-9df5-b85b6d44dd59")
 	)
-	(label "RTDIN1-"
+	(label "RTDIN2-"
 		(at 127 72.39 0)
 		(effects
 			(font
@@ -2231,7 +2241,7 @@
 		)
 		(uuid "4512c36a-18b9-49bb-867a-3bdad2509bca")
 	)
-	(label "4WIRE1+"
+	(label "4WIRE2+"
 		(at 127 62.23 0)
 		(effects
 			(font
@@ -2311,7 +2321,7 @@
 		)
 		(uuid "6ab4d39a-9627-4995-879b-9d8dec10531b")
 	)
-	(label "REFIN1+"
+	(label "REFIN2+"
 		(at 139.7 49.53 180)
 		(effects
 			(font
@@ -2371,7 +2381,7 @@
 		)
 		(uuid "82d9b85c-7842-437c-a8fc-b79c7c204bba")
 	)
-	(label "4WIRE1-"
+	(label "4WIRE2-"
 		(at 127 74.93 0)
 		(effects
 			(font
@@ -2531,7 +2541,7 @@
 		)
 		(uuid "cef1ffb0-0105-482f-a42e-0aa0360d4aae")
 	)
-	(label "REFIN1-"
+	(label "REFIN2-"
 		(at 127 54.61 0)
 		(effects
 			(font

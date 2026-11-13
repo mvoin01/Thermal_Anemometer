@@ -2,7 +2,7 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid "64038d3a-9173-4369-91e3-b2c4a38b56c8")
+	(uuid "e4b96f49-b82c-47e9-a48f-f284443d68fa")
 	(paper "A4")
 	(title_block
 		(title "Thermal Anemometer")

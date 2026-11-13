@@ -7365,7 +7365,7 @@
 			(uuid "c9a34638-301e-4ed0-8713-dee5a88a1920")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
+			(at 0 2.365 0)
 			(layer "F.Fab")
 			(uuid "e033ca98-9f98-4d01-bd99-c0606e41979e")
 			(effects
