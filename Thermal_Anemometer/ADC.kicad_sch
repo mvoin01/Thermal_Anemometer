@@ -2,7 +2,7 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid "066000bf-405a-4aad-a16e-839b7c94625f")
+	(uuid "d826d329-ec91-4a02-946c-bbb33ad8a27a")
 	(paper "A4")
 	(title_block
 		(title "Thermal Anemometer")
@@ -839,16 +839,6 @@
 			)
 			(embedded_fonts no)
 		)
-	)
-	(text "Read datasheet\n"
-		(exclude_from_sim no)
-		(at 140.208 57.404 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "f833d26f-723a-44d2-9d81-07ddadf4b0c7")
 	)
 	(junction
 		(at 114.3 109.22)

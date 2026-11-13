@@ -2,7 +2,7 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid "d1d38dc3-be9c-4b97-a194-5538e5b38723")
+	(uuid "e8435cd3-5599-4d44-b314-5b13ec226404")
 	(paper "A4")
 	(title_block
 		(title "Thermal Anemometer")
@@ -3828,7 +3828,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 167.64 52.07 0)
 			(hide yes)
 			(show_name no)

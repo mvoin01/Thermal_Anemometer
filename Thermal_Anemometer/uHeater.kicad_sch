@@ -2,7 +2,7 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid "14d935b8-14e3-430b-aa6a-6bf9f29682fe")
+	(uuid "64038d3a-9173-4369-91e3-b2c4a38b56c8")
 	(paper "A4")
 	(title_block
 		(title "Thermal Anemometer")
@@ -152,7 +152,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Transistor_FET:AO3400A"
+		(symbol "Transistor_FET:DMN3404L"
 			(pin_names
 				(offset 0)
 				(hide yes)
@@ -173,7 +173,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "AO3400A"
+			(property "Value" "DMN3404L"
 				(at 5.08 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -197,7 +197,7 @@
 					(justify left)
 				)
 			)
-			(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf"
+			(property "Datasheet" "http://www.diodes.com/assets/Datasheets/ds31787.pdf"
 				(at 5.08 -3.81 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -209,7 +209,7 @@
 					(justify left)
 				)
 			)
-			(property "Description" "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"
+			(property "Description" "5.8A Id, 30V Vds, N-Channel MOSFET, SOT-23"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -242,7 +242,7 @@
 					)
 				)
 			)
-			(symbol "AO3400A_0_1"
+			(symbol "DMN3404L_0_1"
 				(polyline
 					(pts
 						(xy 0.254 1.905) (xy 0.254 -1.905)
@@ -409,7 +409,7 @@
 					)
 				)
 			)
-			(symbol "AO3400A_1_1"
+			(symbol "DMN3404L_1_1"
 				(pin input line
 					(at -5.08 0 0)
 					(length 2.54)
@@ -1291,7 +1291,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:AO3400A")
+		(lib_id "Transistor_FET:DMN3404L")
 		(at 152.4 120.65 0)
 		(unit 1)
 		(body_style 1)
@@ -1301,8 +1301,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "4eba34d3-0f9d-4807-94af-de1e2b826166")
-		(property "Reference" "Q2"
+		(uuid "4f8a5d66-35e9-4a12-b474-27b1df74624d")
+		(property "Reference" "Q3"
 			(at 158.75 119.3799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1313,7 +1313,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "AO3400A"
+		(property "Value" "DMN3404L"
 			(at 158.75 121.9199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1337,7 +1337,7 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf"
+		(property "Datasheet" "http://www.diodes.com/assets/Datasheets/ds31787.pdf"
 			(at 157.48 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -1349,7 +1349,7 @@
 				(justify left)
 			)
 		)
-		(property "Description" "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"
+		(property "Description" "5.8A Id, 30V Vds, N-Channel MOSFET, SOT-23"
 			(at 152.4 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -1360,19 +1360,19 @@
 				)
 			)
 		)
-		(pin "2"
-			(uuid "e9f2a0f7-cba1-49b1-b04e-8ce7ae73b870")
-		)
 		(pin "3"
-			(uuid "f89bf5a4-e1ee-4b73-ac0a-bbb2c54fca10")
+			(uuid "73c97bc0-4fa6-4516-9c22-8eca48328cd0")
+		)
+		(pin "2"
+			(uuid "757b1bba-255d-47d1-9ff8-b810c4d8600f")
 		)
 		(pin "1"
-			(uuid "18996785-298e-4cab-a607-ba8992a8bdce")
+			(uuid "59699a17-334d-4940-95ce-9bb3426ef83a")
 		)
 		(instances
 			(project "Thermal_Anemometer"
 				(path "/1a4ae788-da9e-455d-943f-0a0d3148ba06/d6acedc3-60c2-49c3-9d70-3d7b7b22d41c"
-					(reference "Q2")
+					(reference "Q3")
 					(unit 1)
 				)
 			)
@@ -1453,6 +1453,94 @@
 			(project "Thermal_Anemometer"
 				(path "/1a4ae788-da9e-455d-943f-0a0d3148ba06/d6acedc3-60c2-49c3-9d70-3d7b7b22d41c"
 					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:DMN3404L")
+		(at 149.86 67.31 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "963ea76c-994e-4fcf-a389-19429640198e")
+		(property "Reference" "Q4"
+			(at 156.21 66.0399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "DMN3404L"
+			(at 156.21 68.5799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 154.94 69.215 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "http://www.diodes.com/assets/Datasheets/ds31787.pdf"
+			(at 154.94 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "5.8A Id, 30V Vds, N-Channel MOSFET, SOT-23"
+			(at 149.86 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "e541158e-c80c-4620-8aa4-2a0f81f03cdf")
+		)
+		(pin "1"
+			(uuid "1043c6cd-4c05-4e85-904c-e4c196d0f741")
+		)
+		(pin "2"
+			(uuid "33b2b4c4-db02-4e15-9b7f-a461e0195d70")
+		)
+		(instances
+			(project "Thermal_Anemometer"
+				(path "/1a4ae788-da9e-455d-943f-0a0d3148ba06/d6acedc3-60c2-49c3-9d70-3d7b7b22d41c"
+					(reference "Q4")
 					(unit 1)
 				)
 			)
@@ -1693,94 +1781,6 @@
 			(project "Thermal_Anemometer"
 				(path "/1a4ae788-da9e-455d-943f-0a0d3148ba06/d6acedc3-60c2-49c3-9d70-3d7b7b22d41c"
 					(reference "R28")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:AO3400A")
-		(at 149.86 67.31 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d5d30073-468e-49fb-b5ca-38eb3657f727")
-		(property "Reference" "Q1"
-			(at 156.21 66.0399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "AO3400A"
-			(at 156.21 68.5799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 154.94 69.215 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf"
-			(at 154.94 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"
-			(at 149.86 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "f5dedc0f-3f48-4e1e-92e5-ce5c9e1ac5c7")
-		)
-		(pin "3"
-			(uuid "9a82383e-8fa0-47dc-81cb-3cb43a3ff2b1")
-		)
-		(pin "1"
-			(uuid "abbeebca-d9a2-4a59-b716-daab90387239")
-		)
-		(instances
-			(project "Thermal_Anemometer"
-				(path "/1a4ae788-da9e-455d-943f-0a0d3148ba06/d6acedc3-60c2-49c3-9d70-3d7b7b22d41c"
-					(reference "Q1")
 					(unit 1)
 				)
 			)

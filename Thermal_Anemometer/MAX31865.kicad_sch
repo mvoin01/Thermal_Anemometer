@@ -2,7 +2,7 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid "a82a85a0-9eba-4f43-8847-485b8505a2bc")
+	(uuid "e2449b8e-a7eb-4519-af3b-12fbdc32309c")
 	(paper "A4")
 	(title_block
 		(title "Thermal Anemometer")
@@ -167,21 +167,20 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:L"
+		(symbol "Device:FerriteBead"
 			(pin_numbers
 				(hide yes)
 			)
 			(pin_names
-				(offset 1.016)
-				(hide yes)
+				(offset 0)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "L"
-				(at -1.27 0 90)
+			(property "Reference" "FB"
+				(at -3.81 0.635 90)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -190,8 +189,8 @@
 					)
 				)
 			)
-			(property "Value" "L"
-				(at 1.905 0 90)
+			(property "Value" "FerriteBead"
+				(at 3.81 0 90)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -201,7 +200,7 @@
 				)
 			)
 			(property "Footprint" ""
-				(at 0 0 0)
+				(at -1.778 0 90)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -222,7 +221,7 @@
 					)
 				)
 			)
-			(property "Description" "Inductor"
+			(property "Description" "Ferrite bead"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -233,7 +232,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "inductor choke coil reactor magnetic"
+			(property "ki_keywords" "L ferrite bead inductor filter"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -244,7 +243,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
+			(property "ki_fp_filters" "Inductor_* L_* *Ferrite*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -255,11 +254,11 @@
 					)
 				)
 			)
-			(symbol "L_0_1"
-				(arc
-					(start 0 2.54)
-					(mid 0.6323 1.905)
-					(end 0 1.27)
+			(symbol "FerriteBead_0_1"
+				(polyline
+					(pts
+						(xy -2.7686 0.4064) (xy -1.7018 2.2606) (xy 2.7686 -0.3048) (xy 1.6764 -2.159) (xy -2.7686 0.4064)
+					)
 					(stroke
 						(width 0)
 						(type default)
@@ -268,10 +267,10 @@
 						(type none)
 					)
 				)
-				(arc
-					(start 0 1.27)
-					(mid 0.6323 0.635)
-					(end 0 0)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 1.2954)
+					)
 					(stroke
 						(width 0)
 						(type default)
@@ -280,22 +279,10 @@
 						(type none)
 					)
 				)
-				(arc
-					(start 0 0)
-					(mid 0.6323 -0.635)
-					(end 0 -1.27)
-					(stroke
-						(width 0)
-						(type default)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 -1.2192)
 					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -1.27)
-					(mid 0.6323 -1.905)
-					(end 0 -2.54)
 					(stroke
 						(width 0)
 						(type default)
@@ -305,11 +292,11 @@
 					)
 				)
 			)
-			(symbol "L_1_1"
+			(symbol "FerriteBead_1_1"
 				(pin passive line
 					(at 0 3.81 270)
-					(length 1.27)
-					(name "1"
+					(length 2.54)
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -326,8 +313,8 @@
 				)
 				(pin passive line
 					(at 0 -3.81 90)
-					(length 1.27)
-					(name "2"
+					(length 2.54)
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1340,9 +1327,9 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "L to be determined\n"
+	(text "BLM18AG601"
 		(exclude_from_sim no)
-		(at 52.832 56.642 0)
+		(at 52.832 49.276 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1966,16 +1953,6 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 33.02) (xy 60.96 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d63128ec-30fc-4c93-af24-8febc79dc6cb")
-	)
-	(wire
-		(pts
 			(xy 129.54 125.73) (xy 146.05 125.73)
 		)
 		(stroke
@@ -2003,6 +1980,16 @@
 			(type default)
 		)
 		(uuid "d6e8c451-64af-41eb-831d-fbabb4bda760")
+	)
+	(wire
+		(pts
+			(xy 55.88 33.02) (xy 60.96 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d73a275b-d358-49ac-a068-bd617bc9aaf2")
 	)
 	(wire
 		(pts
@@ -3712,86 +3699,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:L")
-		(at 52.07 33.02 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "88c01207-d9de-4e0c-bfa3-e4ed97cba547")
-		(property "Reference" "L2"
-			(at 52.07 27.94 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "L"
-			(at 52.07 30.48 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 52.07 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 52.07 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Inductor"
-			(at 52.07 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "cb9296b4-77a0-4bc7-9367-68676ee2ce1d")
-		)
-		(pin "1"
-			(uuid "11b86659-8c67-46c1-87ce-e88960f5cec2")
-		)
-		(instances
-			(project "Thermal_Anemometer"
-				(path "/1a4ae788-da9e-455d-943f-0a0d3148ba06/ccdc9088-82b0-4725-99c3-cfff00013011"
-					(reference "L2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Sensor_Temperature:MAX31865xAP")
 		(at 161.29 133.35 0)
 		(mirror y)
@@ -3952,7 +3859,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "4k"
+		(property "Value" "2.2k"
 			(at 123.19 34.2899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4244,6 +4151,88 @@
 			(project "Thermal_Anemometer"
 				(path "/1a4ae788-da9e-455d-943f-0a0d3148ba06/ccdc9088-82b0-4725-99c3-cfff00013011"
 					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 123.19 104.14 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b5cb4bb0-a64f-40e3-a262-7c1c92b8cc2e")
+		(property "Reference" "R32"
+			(at 125.73 102.8699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "2.2k"
+			(at 125.73 105.4099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+			(at 124.968 104.14 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 123.19 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 123.19 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "26d46351-5580-4580-81f2-fc77acb37692")
+		)
+		(pin "1"
+			(uuid "1a03bfe1-714d-43cb-b520-142b4c99567c")
+		)
+		(instances
+			(project "Thermal_Anemometer"
+				(path "/1a4ae788-da9e-455d-943f-0a0d3148ba06/ccdc9088-82b0-4725-99c3-cfff00013011"
+					(reference "R32")
 					(unit 1)
 				)
 			)
@@ -4960,8 +4949,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 123.19 104.14 180)
+		(lib_id "Device:FerriteBead")
+		(at 52.07 33.02 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4970,31 +4959,29 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "f33327e8-ed92-49d2-95d5-5b6e59f05ee0")
-		(property "Reference" "R22"
-			(at 125.73 102.8699 0)
+		(uuid "f484cddb-f93e-4fdc-a226-86066cad65d6")
+		(property "Reference" "FB1"
+			(at 52.0192 25.4 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Value" "4k"
-			(at 125.73 105.4099 0)
+		(property "Value" "FerriteBead"
+			(at 52.0192 27.94 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 124.968 104.14 90)
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 52.07 34.798 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5005,7 +4992,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 123.19 104.14 0)
+			(at 52.07 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5015,8 +5002,8 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 123.19 104.14 0)
+		(property "Description" "Ferrite bead"
+			(at 52.07 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5025,17 +5012,17 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "2"
-			(uuid "281990de-5ed9-4fc4-a316-8499cd709c5e")
 		)
 		(pin "1"
-			(uuid "e802fd25-7047-4587-9d47-06fb4639546d")
+			(uuid "e3331497-0af3-4213-8d77-bb432ae35c9e")
+		)
+		(pin "2"
+			(uuid "d58fbe76-ce54-4ae7-b345-fc0b9d6437b2")
 		)
 		(instances
 			(project "Thermal_Anemometer"
 				(path "/1a4ae788-da9e-455d-943f-0a0d3148ba06/ccdc9088-82b0-4725-99c3-cfff00013011"
-					(reference "R22")
+					(reference "FB1")
 					(unit 1)
 				)
 			)

@@ -2,7 +2,7 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid "9095b710-1e26-41c2-9a14-69a58b181b2e")
+	(uuid "ebc78beb-af83-4693-b5d4-f320dd481bba")
 	(paper "A4")
 	(title_block
 		(title "Thermal Anemometer")
@@ -4018,7 +4018,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Package_SO:TSSOP-10_3x3mm_P0.5mm"
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged2Bar_Pad1.0x1.5mm"
 			(at 137.16 46.99 0)
 			(hide yes)
 			(show_name no)
