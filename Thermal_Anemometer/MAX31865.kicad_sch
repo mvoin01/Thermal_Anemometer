@@ -2,7 +2,7 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid "0cfe1636-7755-4011-8681-47b43adbc5d0")
+	(uuid "54818697-af58-4bc3-ad88-04fb8bc15611")
 	(paper "A4")
 	(title_block
 		(title "Thermal Anemometer")
@@ -2417,6 +2417,16 @@
 		)
 		(uuid "1d827f13-2573-4e2b-978a-38c3b9278ff4")
 	)
+	(label "PT1000_1+"
+		(at 33.02 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "25079a6d-deed-4bc3-bb37-f8df14f52dbf")
+	)
 	(label "RTDIN3-"
 		(at 110.49 72.39 180)
 		(effects
@@ -2786,6 +2796,16 @@
 			(justify right bottom)
 		)
 		(uuid "e3df9aa7-f2ad-441d-a8ff-91d0f79c3372")
+	)
+	(label "PT1000_1-"
+		(at 33.02 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e73a9d1e-ffc7-4e37-8ec0-4a376705ad47")
 	)
 	(label "REFIN3-"
 		(at 133.35 39.37 180)

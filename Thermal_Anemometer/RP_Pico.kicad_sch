@@ -2,7 +2,7 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid "83a9f4e0-b26d-416b-98a4-3cf100ba9871")
+	(uuid "cd169eef-ca5b-4a35-a32d-746974210ef1")
 	(paper "A4")
 	(title_block
 		(title "Thermal Anemometer")
@@ -1850,26 +1850,6 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 81.28) (xy 173.99 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "07a63f72-1ee8-4088-b3a3-e0e898fc32cb")
-	)
-	(wire
-		(pts
-			(xy 154.94 93.98) (xy 173.99 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "08281874-34b7-4b78-9399-94484d5643b5")
-	)
-	(wire
-		(pts
 			(xy 69.85 127) (xy 69.85 123.19)
 		)
 		(stroke
@@ -1887,6 +1867,16 @@
 			(type default)
 		)
 		(uuid "0de3e571-c051-4551-aefd-41bf3060a731")
+	)
+	(wire
+		(pts
+			(xy 154.94 81.28) (xy 173.99 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11067870-35ab-4c3a-a99b-a85a95ab5454")
 	)
 	(wire
 		(pts
@@ -2190,6 +2180,16 @@
 	)
 	(wire
 		(pts
+			(xy 154.94 93.98) (xy 173.99 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bda64b5a-38fb-4994-98e0-742cd27285ad")
+	)
+	(wire
+		(pts
 			(xy 160.02 49.53) (xy 172.72 49.53)
 		)
 		(stroke
@@ -2368,16 +2368,6 @@
 		)
 		(uuid "3017c224-a297-42e8-ace9-4630c908d45b")
 	)
-	(label "nCS1"
-		(at 173.99 81.28 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "35698534-f702-4fac-8d5e-a34135f5de9e")
-	)
 	(label "SPI_CLK"
 		(at 40.64 86.36 0)
 		(effects
@@ -2448,6 +2438,16 @@
 		)
 		(uuid "5d38a061-3fc0-4b85-a24a-3bdb13f1ef09")
 	)
+	(label "nCS1"
+		(at 173.99 93.98 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "619206ef-c631-4c71-971c-7b5e7a9d6c06")
+	)
 	(label "uHeater1_EN"
 		(at 62.23 73.66 180)
 		(effects
@@ -2508,6 +2508,16 @@
 		)
 		(uuid "a332e763-fffc-4124-a010-32c327ccac48")
 	)
+	(label "nCS2"
+		(at 173.99 81.28 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a70b1d6e-8358-4eb5-84d0-2a00520ec750")
+	)
 	(label "SPI_nDRDY2"
 		(at 40.64 101.6 0)
 		(effects
@@ -2557,16 +2567,6 @@
 			(justify right bottom)
 		)
 		(uuid "da36e4f9-07f3-476a-a2c9-445ce0fcaa5b")
-	)
-	(label "nCS2"
-		(at 173.99 93.98 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "fd8ba892-a9b8-4d78-8c5a-c2025f70f419")
 	)
 	(hierarchical_label "ADC_RDY{slash}ALERT"
 		(shape input)
