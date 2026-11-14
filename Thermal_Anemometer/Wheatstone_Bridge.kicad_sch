@@ -2,7 +2,7 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid "efee3a90-8b13-4541-a382-6ebd31c93d4c")
+	(uuid "377a79ce-a27d-462e-bda8-9be97278288e")
 	(paper "A4")
 	(title_block
 		(title "Thermal Anemometer")
@@ -3103,7 +3103,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 215.9 134.62 0)
+		(at 215.9 135.89 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3114,7 +3114,7 @@
 		(fields_autoplaced yes)
 		(uuid "351d8fc4-7167-4f58-8ea0-09d2ff8e7d91")
 		(property "Reference" "#PWR057"
-			(at 215.9 140.97 0)
+			(at 215.9 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3125,7 +3125,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 215.9 139.7 0)
+			(at 215.9 140.97 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3135,7 +3135,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 215.9 134.62 0)
+			(at 215.9 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3146,7 +3146,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 215.9 134.62 0)
+			(at 215.9 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3157,7 +3157,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 215.9 134.62 0)
+			(at 215.9 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

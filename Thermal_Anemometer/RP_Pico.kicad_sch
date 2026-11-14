@@ -2,7 +2,7 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid "a5657611-b67d-4608-bf9f-fe0ab2bff54a")
+	(uuid "a7778ac7-f1a8-4c20-b035-4564ec041c3c")
 	(paper "A4")
 	(title_block
 		(title "Thermal Anemometer")
@@ -12,280 +12,6 @@
 		(comment 1 "Meriem Voinica")
 	)
 	(lib_symbols
-		(symbol "Connector_Generic:Conn_02x03_Odd_Even"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at 1.27 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_02x03_Odd_Even"
-				(at 1.27 -5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_2x??_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Conn_02x03_Odd_Even_1_1"
-				(rectangle
-					(start -1.27 3.81)
-					(end 3.81 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start -1.27 2.667)
-					(end 0 2.413)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 3.81 2.667)
-					(end 2.54 2.413)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 3.81 0.127)
-					(end 2.54 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 3.81 -2.413)
-					(end 2.54 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 2.54 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 2.54 180)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 0 180)
-					(length 3.81)
-					(name "Pin_4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 -2.54 180)
-					(length 3.81)
-					(name "Pin_6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -2036,16 +1762,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Maybe delete this, we don't have access to the debug pins on the footprint\n"
-		(exclude_from_sim no)
-		(at 56.896 29.972 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "43d4b53e-a43a-4e25-81e0-3dc43ed29562")
-	)
 	(text "(do not power through 3v3 and USB at the same time)\n\n"
 		(exclude_from_sim no)
 		(at 163.068 30.988 0)
@@ -2244,16 +1960,6 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 46.99) (xy 43.18 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2e722433-78cc-4721-9a6c-1bde8e621120")
-	)
-	(wire
-		(pts
 			(xy 137.16 52.07) (xy 137.16 53.34)
 		)
 		(stroke
@@ -2384,16 +2090,6 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 44.45) (xy 68.58 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9c08db6b-b2ab-4122-a9d0-6f494ba49b43")
-	)
-	(wire
-		(pts
 			(xy 57.15 87.63) (xy 62.23 87.63)
 		)
 		(stroke
@@ -2414,16 +2110,6 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 44.45) (xy 43.18 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a2baa7c8-1ba3-48dc-8f50-d21e75715558")
-	)
-	(wire
-		(pts
 			(xy 67.31 87.63) (xy 67.31 86.36)
 		)
 		(stroke
@@ -2441,16 +2127,6 @@
 			(type default)
 		)
 		(uuid "a5fb86cc-9994-4b86-81bf-2943eb710329")
-	)
-	(wire
-		(pts
-			(xy 55.88 46.99) (xy 71.12 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a843b81a-27b8-4753-b41b-17981948f098")
 	)
 	(wire
 		(pts
@@ -2634,16 +2310,6 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 41.91) (xy 43.18 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fe59fd2f-971f-4e6e-9523-7903ea5fbc07")
-	)
-	(wire
-		(pts
 			(xy 166.37 49.53) (xy 166.37 41.91)
 		)
 		(stroke
@@ -2651,16 +2317,6 @@
 			(type default)
 		)
 		(uuid "ff21dda9-8ac4-44d0-b51c-17298d7507dc")
-	)
-	(wire
-		(pts
-			(xy 55.88 41.91) (xy 71.12 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fffc42dc-65df-497d-9e14-eeaff43a2c1e")
 	)
 	(label "SPI_MISO"
 		(at 173.99 78.74 180)
@@ -2792,16 +2448,6 @@
 		)
 		(uuid "5d38a061-3fc0-4b85-a24a-3bdb13f1ef09")
 	)
-	(label "3V3_Pico"
-		(at 68.58 44.45 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "7aba26e8-f7ff-4aaa-a944-7468b423bb8a")
-	)
 	(label "uHeater1_EN"
 		(at 62.23 73.66 180)
 		(effects
@@ -2831,16 +2477,6 @@
 			(justify right bottom)
 		)
 		(uuid "9d0ea4d1-2c02-4307-ae72-fef1236b27de")
-	)
-	(label "SWCLK"
-		(at 27.94 44.45 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9f31aea8-69d5-41ec-bd93-0139d658ad1b")
 	)
 	(label "I2C_SCL"
 		(at 60.96 132.08 180)
@@ -2901,26 +2537,6 @@
 			(justify right bottom)
 		)
 		(uuid "afe87d2c-423d-4cd4-a7e4-8a5d3451a586")
-	)
-	(label "RUN"
-		(at 27.94 46.99 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c79b42a5-eec5-46c6-8667-49eddffcb3ff")
-	)
-	(label "SWDIO"
-		(at 27.94 41.91 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d032643a-3ac6-43c7-898a-05fb6389f526")
 	)
 	(label "uHeater1_EN"
 		(at 90.17 81.28 0)
@@ -3083,84 +2699,6 @@
 			(justify right)
 		)
 		(uuid "f306f8b6-f736-47f2-a6a3-efb65f3d21f6")
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 71.12 41.91 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "030226e0-7fba-4b7f-b529-b767a2347979")
-		(property "Reference" "#PWR044"
-			(at 71.12 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 71.12 46.99 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 71.12 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 71.12 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 71.12 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8be6ae8a-c98b-45c4-bb72-0e56104a31f3")
-		)
-		(instances
-			(project "Thermal_Anemometer"
-				(path "/1a4ae788-da9e-455d-943f-0a0d3148ba06/62e6fb0e-c182-4402-904d-2bf12f235f15"
-					(reference "#PWR044")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "MCU_Module:RaspberryPi_Pico")
@@ -3513,98 +3051,6 @@
 			(project "Thermal_Anemometer"
 				(path "/1a4ae788-da9e-455d-943f-0a0d3148ba06/62e6fb0e-c182-4402-904d-2bf12f235f15"
 					(reference "#PWR040")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_02x03_Odd_Even")
-		(at 48.26 44.45 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "14aa7d67-1b50-4e37-889c-5036e2f28fe7")
-		(property "Reference" "J1"
-			(at 49.53 35.56 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_02x03_Odd_Even"
-			(at 49.53 38.1 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical_SMD"
-			(at 48.26 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 48.26 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 48.26 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "5"
-			(uuid "a3b953e9-cf3e-4caf-a5f1-92fec6de799f")
-		)
-		(pin "1"
-			(uuid "485cca6e-c67c-43d3-9e61-3a396ed5307e")
-		)
-		(pin "2"
-			(uuid "c9d5bbdc-54c7-41d8-b5ff-87f9f775181a")
-		)
-		(pin "4"
-			(uuid "740964c7-4820-4a43-87a0-7f527128ab16")
-		)
-		(pin "3"
-			(uuid "d976f715-dfa6-4e2a-86e0-04543b981ac6")
-		)
-		(pin "6"
-			(uuid "9e00142b-2d04-4f2c-9785-d7d7617ad739")
-		)
-		(instances
-			(project "Thermal_Anemometer"
-				(path "/1a4ae788-da9e-455d-943f-0a0d3148ba06/62e6fb0e-c182-4402-904d-2bf12f235f15"
-					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -4727,84 +4173,6 @@
 			(project "Thermal_Anemometer"
 				(path "/1a4ae788-da9e-455d-943f-0a0d3148ba06/62e6fb0e-c182-4402-904d-2bf12f235f15"
 					(reference "R35")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 71.12 46.99 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d7ebd266-31fd-42cd-9dbf-99e91f0d34c9")
-		(property "Reference" "#PWR043"
-			(at 71.12 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 71.12 52.07 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 71.12 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 71.12 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 71.12 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e988aef3-4cf0-4e82-b814-1259f3535011")
-		)
-		(instances
-			(project "Thermal_Anemometer"
-				(path "/1a4ae788-da9e-455d-943f-0a0d3148ba06/62e6fb0e-c182-4402-904d-2bf12f235f15"
-					(reference "#PWR043")
 					(unit 1)
 				)
 			)
