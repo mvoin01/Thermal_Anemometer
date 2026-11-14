@@ -2,7 +2,7 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid "a7e39df8-078a-44cc-9428-4199772f0324")
+	(uuid "ec97710f-995b-441c-9bb9-fca81b2b8a3f")
 	(paper "A4")
 	(title_block
 		(title "Thermal Anemometer")
@@ -1651,6 +1651,16 @@
 		)
 		(uuid "2d29eb6a-bd8b-434e-a278-f0f68fdeef14")
 	)
+	(text "EN pin can take 6V max, want to stay below that\n"
+		(exclude_from_sim no)
+		(at 134.366 107.95 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4e0dcb77-ae88-493a-891f-b373c062fd7e")
+	)
 	(text "12V-6V conversion using DC-DC converter\n"
 		(exclude_from_sim no)
 		(at 93.726 28.194 0)
@@ -1780,6 +1790,12 @@
 		(uuid "6be6e9f1-5c2a-48c2-8245-cac12142231d")
 	)
 	(junction
+		(at 121.92 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "79e6e3c8-1664-4d20-9df9-013bf1df9472")
+	)
+	(junction
 		(at 115.57 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1790,6 +1806,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8b0f5c47-d539-466c-a597-c2d153583a47")
+	)
+	(junction
+		(at 121.92 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aafe69cc-c505-46d9-ad3e-8e84cc5462db")
 	)
 	(junction
 		(at 72.39 49.53)
@@ -1820,6 +1842,32 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f014ace0-a28e-454d-b66b-d5374cc576ed")
+	)
+	(junction
+		(at 119.38 135.89)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fa9faf70-1e43-404c-a730-367cb14eff63")
+	)
+	(wire
+		(pts
+			(xy 129.54 125.73) (xy 129.54 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "073b65db-f2e2-4100-8f72-d93de1483209")
+	)
+	(wire
+		(pts
+			(xy 121.92 135.89) (xy 119.38 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "087affa4-2738-4a15-b958-66b878a7ff0f")
 	)
 	(wire
 		(pts
@@ -1903,6 +1951,16 @@
 	)
 	(wire
 		(pts
+			(xy 121.92 134.62) (xy 121.92 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "289c64de-80dc-4876-867d-6ab78fa825de")
+	)
+	(wire
+		(pts
 			(xy 161.29 52.07) (xy 163.83 52.07)
 		)
 		(stroke
@@ -1913,16 +1971,6 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 118.11) (xy 129.54 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "31d07df4-3d5d-4eb0-a85f-79a5d877f500")
-	)
-	(wire
-		(pts
 			(xy 72.39 44.45) (xy 72.39 49.53)
 		)
 		(stroke
@@ -1930,6 +1978,16 @@
 			(type default)
 		)
 		(uuid "33876b7e-70c9-4d05-8e44-7b4747809159")
+	)
+	(wire
+		(pts
+			(xy 129.54 125.73) (xy 121.92 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33a730f9-ce46-4a93-9415-240d94a50ede")
 	)
 	(wire
 		(pts
@@ -1993,7 +2051,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 129.54) (xy 115.57 132.08)
+			(xy 119.38 135.89) (xy 119.38 137.16)
 		)
 		(stroke
 			(width 0)
@@ -2030,6 +2088,16 @@
 			(type default)
 		)
 		(uuid "8014e723-4331-4e33-8d71-89ec7219820d")
+	)
+	(wire
+		(pts
+			(xy 115.57 118.11) (xy 121.92 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89703a8d-203d-46f5-9205-192cb7f86d1b")
 	)
 	(wire
 		(pts
@@ -2083,6 +2151,16 @@
 	)
 	(wire
 		(pts
+			(xy 121.92 125.73) (xy 121.92 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "904086f4-456b-4e8c-92d8-59d56b7ce376")
+	)
+	(wire
+		(pts
 			(xy 144.78 118.11) (xy 156.21 118.11)
 		)
 		(stroke
@@ -2100,6 +2178,16 @@
 			(type default)
 		)
 		(uuid "a032b54f-d294-4210-ab47-d4e0f78c2f44")
+	)
+	(wire
+		(pts
+			(xy 119.38 135.89) (xy 115.57 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a334c120-41f1-4d93-acac-b829c21e8449")
 	)
 	(wire
 		(pts
@@ -2223,6 +2311,16 @@
 	)
 	(wire
 		(pts
+			(xy 121.92 118.11) (xy 129.54 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da362c93-4d68-40c1-a10e-c38f00ebf3a0")
+	)
+	(wire
+		(pts
 			(xy 123.19 54.61) (xy 123.19 58.42)
 		)
 		(stroke
@@ -2270,6 +2368,16 @@
 			(type default)
 		)
 		(uuid "e164d330-1a88-4854-b3d4-ff3d4a9fb9ae")
+	)
+	(wire
+		(pts
+			(xy 115.57 135.89) (xy 115.57 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1d02a59-a8e8-44c0-a1d2-482e0490285b")
 	)
 	(wire
 		(pts
@@ -2513,7 +2621,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 115.57 132.08 0)
+		(at 119.38 137.16 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2524,7 +2632,7 @@
 		(fields_autoplaced yes)
 		(uuid "1d57940d-97cd-4ea1-9cf6-3ef74412e5ad")
 		(property "Reference" "#PWR012"
-			(at 115.57 138.43 0)
+			(at 119.38 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2535,7 +2643,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 115.57 137.16 0)
+			(at 119.38 142.24 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2545,7 +2653,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 115.57 132.08 0)
+			(at 119.38 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2556,7 +2664,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 115.57 132.08 0)
+			(at 119.38 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2567,7 +2675,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 115.57 132.08 0)
+			(at 119.38 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2746,6 +2854,88 @@
 			(project "Thermal_Anemometer"
 				(path "/1a4ae788-da9e-455d-943f-0a0d3148ba06/1ca572dd-078e-472c-9cd3-8d14f26c455e"
 					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 121.92 121.92 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "470ed9f8-7090-439a-b91f-b4b1e2f5c6c1")
+		(property "Reference" "R39"
+			(at 124.46 120.6499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 124.46 123.1899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 120.142 121.92 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.92 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 121.92 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a00eddeb-06a9-4c0c-b0e0-1dad6f4cbf04")
+		)
+		(pin "2"
+			(uuid "3fd815a6-1805-4b5d-a146-902f14459f8c")
+		)
+		(instances
+			(project "Thermal_Anemometer"
+				(path "/1a4ae788-da9e-455d-943f-0a0d3148ba06/1ca572dd-078e-472c-9cd3-8d14f26c455e"
+					(reference "R39")
 					(unit 1)
 				)
 			)
@@ -4156,6 +4346,88 @@
 			(project "Thermal_Anemometer"
 				(path "/1a4ae788-da9e-455d-943f-0a0d3148ba06/1ca572dd-078e-472c-9cd3-8d14f26c455e"
 					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 121.92 130.81 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d7223fdf-01e0-4560-914b-834ea665b2a9")
+		(property "Reference" "R22"
+			(at 124.46 129.5399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "33k"
+			(at 124.46 132.0799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 120.142 130.81 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.92 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 121.92 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "149af34e-5e9c-4618-a76a-6ab10de8faa5")
+		)
+		(pin "2"
+			(uuid "9f4a9975-f489-42ec-9fcc-0bc15d52feac")
+		)
+		(instances
+			(project "Thermal_Anemometer"
+				(path "/1a4ae788-da9e-455d-943f-0a0d3148ba06/1ca572dd-078e-472c-9cd3-8d14f26c455e"
+					(reference "R22")
 					(unit 1)
 				)
 			)

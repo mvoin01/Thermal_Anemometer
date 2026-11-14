@@ -2,7 +2,7 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid "b8210610-85e6-4169-b787-db167947770e")
+	(uuid "efee3a90-8b13-4541-a382-6ebd31c93d4c")
 	(paper "A4")
 	(title_block
 		(title "Thermal Anemometer")
@@ -569,6 +569,233 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Diode:BAV99"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "BAV99"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+				(at 0 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "BAV99 High-speed switching diodes, SOT-23"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "BAV99_0_1"
+				(polyline
+					(pts
+						(xy -5.08 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "BAV99_1_1"
+				(polyline
+					(pts
+						(xy -3.81 1.27) (xy -1.27 0) (xy -3.81 -1.27) (xy -3.81 1.27) (xy -3.81 1.27) (xy -3.81 1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 3.81 0) (xy 1.27 -1.27) (xy 1.27 1.27) (xy 1.27 1.27) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 1.27) (xy 3.81 -1.27) (xy 3.81 -1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1152,6 +1379,12 @@
 		(uuid "1fd1e0e2-67eb-4240-84ba-5ebd078ff9c7")
 	)
 	(junction
+		(at 220.98 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "25a3b0ba-c5b9-401e-82bd-07848809b33c")
+	)
+	(junction
 		(at 191.77 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1228,6 +1461,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d9a3d1e5-4117-441c-b5ca-ce6319ece22c")
+	)
+	(junction
+		(at 217.17 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ec86729e-20e5-4b11-a690-bd385546a59c")
 	)
 	(junction
 		(at 114.3 46.99)
@@ -1439,6 +1678,16 @@
 	)
 	(wire
 		(pts
+			(xy 207.01 128.27) (xy 220.98 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f41e672-3bac-49a0-a1c1-9a82a6428329")
+	)
+	(wire
+		(pts
 			(xy 114.3 74.93) (xy 157.48 74.93)
 		)
 		(stroke
@@ -1469,7 +1718,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 128.27) (xy 204.47 128.27)
+			(xy 191.77 128.27) (xy 199.39 128.27)
 		)
 		(stroke
 			(width 0)
@@ -1486,6 +1735,16 @@
 			(type default)
 		)
 		(uuid "4ea6c197-985e-4769-853b-e763f1be3e2c")
+	)
+	(wire
+		(pts
+			(xy 217.17 57.15) (xy 224.79 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51ac33c8-aaba-4085-9bba-665c93441c77")
 	)
 	(wire
 		(pts
@@ -1646,6 +1905,16 @@
 			(type default)
 		)
 		(uuid "92c8c508-f37b-4805-9b37-8411f48b202d")
+	)
+	(wire
+		(pts
+			(xy 220.98 128.27) (xy 229.87 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92ca793a-e371-40e9-84b1-cbf4af3583d5")
 	)
 	(wire
 		(pts
@@ -1839,7 +2108,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 57.15) (xy 199.39 57.15)
+			(xy 189.23 57.15) (xy 195.58 57.15)
 		)
 		(stroke
 			(width 0)
@@ -1866,6 +2135,16 @@
 			(type default)
 		)
 		(uuid "cc7c078b-c13a-41a2-bffd-d5408a63851a")
+	)
+	(wire
+		(pts
+			(xy 203.2 57.15) (xy 217.17 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf7ed6cb-c067-44ab-85cd-162c8a7d3693")
 	)
 	(wire
 		(pts
@@ -2128,17 +2407,6 @@
 		)
 		(uuid "235961f5-0032-487e-88b5-ee76033ce0f0")
 	)
-	(hierarchical_label "A_OUT2"
-		(shape output)
-		(at 204.47 128.27 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "28b5a97f-02b5-42dc-882f-69ce8b421cdb")
-	)
 	(hierarchical_label "PT1000_2+"
 		(shape input)
 		(at 64.77 105.41 180)
@@ -2161,17 +2429,6 @@
 		)
 		(uuid "8c2bb106-860c-4cbc-b1ee-65e00b6c89a7")
 	)
-	(hierarchical_label "A_OUT1"
-		(shape output)
-		(at 199.39 57.15 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "99c592f4-da6a-4abc-ab1a-0cb49cd44de3")
-	)
 	(hierarchical_label "PT1000_1+"
 		(shape input)
 		(at 64.77 82.55 180)
@@ -2182,6 +2439,28 @@
 			(justify right)
 		)
 		(uuid "d852e9e7-62c5-451b-b33d-cd2869d5fe8a")
+	)
+	(hierarchical_label "A_OUT2"
+		(shape output)
+		(at 229.87 128.27 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e8cf8703-6285-4be8-b2a7-6807a22e84a8")
+	)
+	(hierarchical_label "A_OUT1"
+		(shape output)
+		(at 224.79 57.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ebd07904-40a8-4823-b7b3-bafdcfeebb8a")
 	)
 	(symbol
 		(lib_id "power:+6V")
@@ -2256,6 +2535,91 @@
 			(project "Thermal_Anemometer"
 				(path "/1a4ae788-da9e-455d-943f-0a0d3148ba06/a636d246-2c23-47ab-8316-c8d2ce1574d0"
 					(reference "#PWR050")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:BAV99")
+		(at 215.9 128.27 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "02660c6a-3fad-48e4-b351-a989141c9543")
+		(property "Reference" "D3"
+			(at 213.36 126.9999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BAV99"
+			(at 213.36 129.5399 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 228.6 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf"
+			(at 215.9 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "BAV99 High-speed switching diodes, SOT-23"
+			(at 215.9 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2c78249d-aa32-45e2-be49-609bbba6bcf8")
+		)
+		(pin "3"
+			(uuid "181f28ef-6ffc-4d3e-b777-91a7957b361e")
+		)
+		(pin "2"
+			(uuid "91fe995b-d03c-44e2-a7dc-ff9af07fd3a6")
+		)
+		(instances
+			(project "Thermal_Anemometer"
+				(path "/1a4ae788-da9e-455d-943f-0a0d3148ba06/a636d246-2c23-47ab-8316-c8d2ce1574d0"
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -2738,6 +3102,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 215.9 134.62 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "351d8fc4-7167-4f58-8ea0-09d2ff8e7d91")
+		(property "Reference" "#PWR057"
+			(at 215.9 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 215.9 139.7 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 215.9 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 215.9 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 215.9 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ee8cb5bd-4760-424f-85d4-8f324adb1440")
+		)
+		(instances
+			(project "Thermal_Anemometer"
+				(path "/1a4ae788-da9e-455d-943f-0a0d3148ba06/a636d246-2c23-47ab-8316-c8d2ce1574d0"
+					(reference "#PWR057")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 161.29 74.93 90)
 		(unit 1)
@@ -2898,6 +3340,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 212.09 64.77 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "58440ec2-bd5f-4290-b931-e62ef9deea1a")
+		(property "Reference" "#PWR056"
+			(at 212.09 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 212.09 69.85 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 212.09 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 212.09 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 212.09 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f0f7c74a-7fbd-45ae-a0f2-fa9b9f7ddd49")
+		)
+		(instances
+			(project "Thermal_Anemometer"
+				(path "/1a4ae788-da9e-455d-943f-0a0d3148ba06/a636d246-2c23-47ab-8316-c8d2ce1574d0"
+					(reference "#PWR056")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Jumper:Jumper_2_Open")
 		(at 88.9 82.55 180)
 		(unit 1)
@@ -3050,6 +3570,84 @@
 			(project "Thermal_Anemometer"
 				(path "/1a4ae788-da9e-455d-943f-0a0d3148ba06/a636d246-2c23-47ab-8316-c8d2ce1574d0"
 					(reference "#PWR049")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 215.9 120.65 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6cbf1703-090b-4c49-84e0-2e589dcbe5af")
+		(property "Reference" "#PWR055"
+			(at 215.9 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 215.9 115.57 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 215.9 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 215.9 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 215.9 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c3b505fa-8542-49ed-b558-1f1e488bd91e")
+		)
+		(instances
+			(project "Thermal_Anemometer"
+				(path "/1a4ae788-da9e-455d-943f-0a0d3148ba06/a636d246-2c23-47ab-8316-c8d2ce1574d0"
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -3648,6 +4246,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 212.09 49.53 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "97917556-87a4-41de-88bb-fb7baa5a411e")
+		(property "Reference" "#PWR054"
+			(at 212.09 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 212.09 44.45 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 212.09 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 212.09 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 212.09 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "956d401b-4744-4c8b-bc2a-9dc68a744a31")
+		)
+		(instances
+			(project "Thermal_Anemometer"
+				(path "/1a4ae788-da9e-455d-943f-0a0d3148ba06/a636d246-2c23-47ab-8316-c8d2ce1574d0"
+					(reference "#PWR054")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 114.3 53.34 0)
 		(unit 1)
@@ -3968,6 +4644,86 @@
 			(project "Thermal_Anemometer"
 				(path "/1a4ae788-da9e-455d-943f-0a0d3148ba06/a636d246-2c23-47ab-8316-c8d2ce1574d0"
 					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 203.2 128.27 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c3c6c7b8-0a9f-4964-8b1f-a49583f2f203")
+		(property "Reference" "R41"
+			(at 203.2 122.5133 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "180"
+			(at 203.2 125.0533 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 203.2 130.048 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 203.2 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 203.2 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "47c439d0-b82f-4494-9e80-083c31fec66b")
+		)
+		(pin "1"
+			(uuid "4e4fcf9b-a68b-4209-860b-ab71561b3e0f")
+		)
+		(instances
+			(project "Thermal_Anemometer"
+				(path "/1a4ae788-da9e-455d-943f-0a0d3148ba06/a636d246-2c23-47ab-8316-c8d2ce1574d0"
+					(reference "R41")
 					(unit 1)
 				)
 			)
@@ -4552,6 +5308,91 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:BAV99")
+		(at 212.09 57.15 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f6d62abd-95fd-40c4-ae5f-aba64669653c")
+		(property "Reference" "D1"
+			(at 209.55 55.8799 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BAV99"
+			(at 209.55 58.4199 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 224.79 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf"
+			(at 212.09 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "BAV99 High-speed switching diodes, SOT-23"
+			(at 212.09 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fbc818cd-e24b-49e4-81bb-aad72ac5301d")
+		)
+		(pin "2"
+			(uuid "cbd341ad-cda0-49ec-9293-69fce938c1f1")
+		)
+		(pin "3"
+			(uuid "2f659290-c815-4463-89ba-277502503bd9")
+		)
+		(instances
+			(project "Thermal_Anemometer"
+				(path "/1a4ae788-da9e-455d-943f-0a0d3148ba06/a636d246-2c23-47ab-8316-c8d2ce1574d0"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 163.83 116.84 90)
 		(unit 1)
@@ -4706,6 +5547,86 @@
 			(project "Thermal_Anemometer"
 				(path "/1a4ae788-da9e-455d-943f-0a0d3148ba06/a636d246-2c23-47ab-8316-c8d2ce1574d0"
 					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 199.39 57.15 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ffa4d98c-5a52-4557-9628-e7d7a282dcfa")
+		(property "Reference" "R40"
+			(at 199.39 51.3933 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "180"
+			(at 199.39 53.9333 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 199.39 58.928 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 199.39 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 199.39 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "9c2fbb1f-a78a-45ae-93c8-b977c3494736")
+		)
+		(pin "1"
+			(uuid "bc928f1c-c657-4f2b-8309-4b1506002fcf")
+		)
+		(instances
+			(project "Thermal_Anemometer"
+				(path "/1a4ae788-da9e-455d-943f-0a0d3148ba06/a636d246-2c23-47ab-8316-c8d2ce1574d0"
+					(reference "R40")
 					(unit 1)
 				)
 			)
