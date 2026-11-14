@@ -18723,7 +18723,7 @@
 	(footprint "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm"
 		(layer "F.Cu")
 		(uuid "d47c4e6a-3c43-45db-8516-aee892207db5")
-		(at 178.571 109.743)
+		(at 178.562 109.474)
 		(descr "THT rectangular pad as test Point, square 1.0mm side length, hole diameter 0.5mm")
 		(tags "test point THT pad rectangle square")
 		(property "Reference" "J17"

@@ -2,7 +2,7 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid "1441f9df-a451-46f5-bd5f-88336b558d37")
+	(uuid "e2791793-87d6-40c0-a720-98485b392fe8")
 	(paper "A4")
 	(title_block
 		(title "Thermal Anemometer")
@@ -579,9 +579,9 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Diode:BAV99"
+		(symbol "Diode:BAT54S"
 			(pin_names
-				(hide yes)
+				(offset 0)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -589,27 +589,41 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "D"
-				(at 0 5.08 0)
+				(at 2.54 -5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Value" "BAV99"
-				(at 0 2.54 0)
+			(property "Value" "BAT54S"
+				(at -6.35 3.175 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-				(at 0 -12.7 0)
+				(at 1.905 3.175 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds11005.pdf"
+				(at -3.048 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -619,7 +633,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf"
+			(property "Description" "Vr 30V, If 200mA, Dual schottky barrier diode, in series, SOT-323"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -630,18 +644,7 @@
 					)
 				)
 			)
-			(property "Description" "BAV99 High-speed switching diodes, SOT-23"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "diode"
+			(property "ki_keywords" "schottky diode"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -663,10 +666,10 @@
 					)
 				)
 			)
-			(symbol "BAV99_0_1"
+			(symbol "BAT54S_0_1"
 				(polyline
 					(pts
-						(xy -5.08 0) (xy 5.08 0)
+						(xy -4.445 1.27) (xy -4.445 -1.27) (xy -2.54 0) (xy -4.445 1.27)
 					)
 					(stroke
 						(width 0)
@@ -676,14 +679,12 @@
 						(type none)
 					)
 				)
-			)
-			(symbol "BAV99_1_1"
 				(polyline
 					(pts
-						(xy -3.81 1.27) (xy -1.27 0) (xy -3.81 -1.27) (xy -3.81 1.27) (xy -3.81 1.27) (xy -3.81 1.27)
+						(xy -3.81 0) (xy -1.27 0)
 					)
 					(stroke
-						(width 0.2032)
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -692,10 +693,10 @@
 				)
 				(polyline
 					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27) (xy -1.27 1.27)
+						(xy -3.175 -1.27) (xy -3.175 -1.016)
 					)
 					(stroke
-						(width 0.2032)
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -704,7 +705,55 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 -2.54)
+						(xy -2.54 1.27) (xy -1.905 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -1.27) (xy -3.175 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 1.27) (xy -1.905 1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 0) (xy 1.905 0)
 					)
 					(stroke
 						(width 0)
@@ -727,10 +776,10 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 1.27) (xy 3.81 0) (xy 1.27 -1.27) (xy 1.27 1.27) (xy 1.27 1.27) (xy 1.27 1.27)
+						(xy 1.27 0) (xy 3.81 0)
 					)
 					(stroke
-						(width 0.2032)
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -739,20 +788,82 @@
 				)
 				(polyline
 					(pts
-						(xy 3.81 1.27) (xy 3.81 -1.27) (xy 3.81 -1.27)
+						(xy 1.905 1.27) (xy 1.905 -1.27) (xy 3.81 0) (xy 1.905 1.27)
 					)
 					(stroke
-						(width 0.2032)
+						(width 0)
 						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
+				(polyline
+					(pts
+						(xy 3.175 -1.27) (xy 3.175 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 1.27) (xy 4.445 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -1.27) (xy 3.175 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -1.27) (xy 3.81 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.445 1.27) (xy 4.445 1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "BAT54S_1_1"
 				(pin passive line
 					(at -7.62 0 0)
-					(length 2.54)
-					(name "K"
+					(length 3.81)
+					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -769,8 +880,8 @@
 				)
 				(pin passive line
 					(at 7.62 0 180)
-					(length 2.54)
-					(name "A"
+					(length 3.81)
+					(name "K"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -787,8 +898,8 @@
 				)
 				(pin passive line
 					(at 0 -5.08 90)
-					(length 2.54)
-					(name "K"
+					(length 5.08)
+					(name "COM"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1367,6 +1478,12 @@
 		)
 	)
 	(junction
+		(at 217.17 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "03455bc6-c610-41c2-bfd1-b1b4da6639bf")
+	)
+	(junction
 		(at 167.64 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1377,12 +1494,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1fd1e0e2-67eb-4240-84ba-5ebd078ff9c7")
-	)
-	(junction
-		(at 220.98 128.27)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "25a3b0ba-c5b9-401e-82bd-07848809b33c")
 	)
 	(junction
 		(at 191.77 128.27)
@@ -1419,6 +1530,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7d67ba53-b450-4821-b910-62b9d8f8125e")
+	)
+	(junction
+		(at 220.98 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "86299590-379c-4ddc-8928-2cc67788b9fa")
 	)
 	(junction
 		(at 189.23 57.15)
@@ -1461,12 +1578,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d9a3d1e5-4117-441c-b5ca-ce6319ece22c")
-	)
-	(junction
-		(at 217.17 57.15)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ec86729e-20e5-4b11-a690-bd385546a59c")
 	)
 	(junction
 		(at 114.3 46.99)
@@ -1738,7 +1849,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 57.15) (xy 224.79 57.15)
+			(xy 203.2 57.15) (xy 217.17 57.15)
 		)
 		(stroke
 			(width 0)
@@ -1905,16 +2016,6 @@
 			(type default)
 		)
 		(uuid "92c8c508-f37b-4805-9b37-8411f48b202d")
-	)
-	(wire
-		(pts
-			(xy 220.98 128.27) (xy 229.87 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "92ca793a-e371-40e9-84b1-cbf4af3583d5")
 	)
 	(wire
 		(pts
@@ -2118,6 +2219,16 @@
 	)
 	(wire
 		(pts
+			(xy 220.98 128.27) (xy 229.87 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7039201-d7c6-4846-80ce-414952f3ed7d")
+	)
+	(wire
+		(pts
 			(xy 172.72 59.69) (xy 168.91 59.69)
 		)
 		(stroke
@@ -2138,13 +2249,13 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 57.15) (xy 217.17 57.15)
+			(xy 217.17 57.15) (xy 224.79 57.15)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cf7ed6cb-c067-44ab-85cd-162c8a7d3693")
+		(uuid "d5ef3619-356d-45b4-9e98-5951aee0c475")
 	)
 	(wire
 		(pts
@@ -2535,91 +2646,6 @@
 			(project "Thermal_Anemometer"
 				(path "/1a4ae788-da9e-455d-943f-0a0d3148ba06/a636d246-2c23-47ab-8316-c8d2ce1574d0"
 					(reference "#PWR050")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:BAV99")
-		(at 215.9 128.27 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "02660c6a-3fad-48e4-b351-a989141c9543")
-		(property "Reference" "D3"
-			(at 213.36 126.9999 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BAV99"
-			(at 213.36 129.5399 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 228.6 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf"
-			(at 215.9 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "BAV99 High-speed switching diodes, SOT-23"
-			(at 215.9 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2c78249d-aa32-45e2-be49-609bbba6bcf8")
-		)
-		(pin "3"
-			(uuid "181f28ef-6ffc-4d3e-b777-91a7957b361e")
-		)
-		(pin "2"
-			(uuid "91fe995b-d03c-44e2-a7dc-ff9af07fd3a6")
-		)
-		(instances
-			(project "Thermal_Anemometer"
-				(path "/1a4ae788-da9e-455d-943f-0a0d3148ba06/a636d246-2c23-47ab-8316-c8d2ce1574d0"
-					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -4650,6 +4676,92 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:BAT54S")
+		(at 215.9 128.27 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c336c6d8-8448-41a1-8d0d-7cc4b807f0fb")
+		(property "Reference" "D5"
+			(at 213.36 126.9999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BAT54S"
+			(at 213.36 129.5399 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 212.725 126.365 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds11005.pdf"
+			(at 215.9 131.318 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Vr 30V, If 200mA, Dual schottky barrier diode, in series, SOT-323"
+			(at 215.9 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9fdf3320-80cf-4b24-9b2d-306068cc6478")
+		)
+		(pin "3"
+			(uuid "34388989-b847-49a7-a256-e26ec9a6d8f6")
+		)
+		(pin "2"
+			(uuid "0494ab65-1610-4c86-bd7e-fcd62da57594")
+		)
+		(instances
+			(project "Thermal_Anemometer"
+				(path "/1a4ae788-da9e-455d-943f-0a0d3148ba06/a636d246-2c23-47ab-8316-c8d2ce1574d0"
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 203.2 128.27 90)
 		(unit 1)
@@ -5226,6 +5338,92 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:BAT54S")
+		(at 212.09 57.15 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e8f0a658-f4ad-4f14-a1ed-c0cecbc1b699")
+		(property "Reference" "D4"
+			(at 209.55 55.8799 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BAT54S"
+			(at 209.55 58.4199 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 208.915 55.245 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds11005.pdf"
+			(at 212.09 60.198 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Vr 30V, If 200mA, Dual schottky barrier diode, in series, SOT-323"
+			(at 212.09 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "eb4448fc-a407-4db8-9973-6ba07f55f619")
+		)
+		(pin "1"
+			(uuid "79a08189-221a-46a7-af14-7b3c2956c497")
+		)
+		(pin "2"
+			(uuid "9acd6646-8c77-48ee-ab54-de04553f012b")
+		)
+		(instances
+			(project "Thermal_Anemometer"
+				(path "/1a4ae788-da9e-455d-943f-0a0d3148ba06/a636d246-2c23-47ab-8316-c8d2ce1574d0"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 116.84 123.19 0)
 		(unit 1)
@@ -5302,91 +5500,6 @@
 			(project "Thermal_Anemometer"
 				(path "/1a4ae788-da9e-455d-943f-0a0d3148ba06/a636d246-2c23-47ab-8316-c8d2ce1574d0"
 					(reference "R10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:BAV99")
-		(at 212.09 57.15 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f6d62abd-95fd-40c4-ae5f-aba64669653c")
-		(property "Reference" "D1"
-			(at 209.55 55.8799 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BAV99"
-			(at 209.55 58.4199 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 224.79 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf"
-			(at 212.09 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "BAV99 High-speed switching diodes, SOT-23"
-			(at 212.09 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "fbc818cd-e24b-49e4-81bb-aad72ac5301d")
-		)
-		(pin "2"
-			(uuid "cbd341ad-cda0-49ec-9293-69fce938c1f1")
-		)
-		(pin "3"
-			(uuid "2f659290-c815-4463-89ba-277502503bd9")
-		)
-		(instances
-			(project "Thermal_Anemometer"
-				(path "/1a4ae788-da9e-455d-943f-0a0d3148ba06/a636d246-2c23-47ab-8316-c8d2ce1574d0"
-					(reference "D1")
 					(unit 1)
 				)
 			)
