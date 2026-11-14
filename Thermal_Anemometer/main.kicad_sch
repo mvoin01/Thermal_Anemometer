@@ -766,7 +766,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 76.2) (xy 59.69 76.2)
+			(xy 31.75 58.42) (xy 59.69 58.42)
 		)
 		(stroke
 			(width 0)
@@ -836,7 +836,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 123.19) (xy 62.23 123.19)
+			(xy 34.29 105.41) (xy 62.23 105.41)
 		)
 		(stroke
 			(width 0)
@@ -856,7 +856,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 92.71) (xy 62.23 92.71)
+			(xy 34.29 74.93) (xy 62.23 74.93)
 		)
 		(stroke
 			(width 0)
@@ -866,17 +866,37 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 138.43) (xy 125.73 138.43)
+			(xy 97.79 135.89) (xy 125.73 135.89)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3287da25-31fc-4558-a5b5-c962a3030169")
+		(uuid "2b5a8978-28b4-4029-9379-3d4633b0810e")
 	)
 	(wire
 		(pts
-			(xy 34.29 105.41) (xy 62.23 105.41)
+			(xy 97.79 133.35) (xy 125.73 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2cde2213-c9da-471f-855a-97f67eb429ee")
+	)
+	(wire
+		(pts
+			(xy 97.79 130.81) (xy 125.73 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32bc4cd4-8510-4d76-80ab-caee03fb8c48")
+	)
+	(wire
+		(pts
+			(xy 34.29 87.63) (xy 62.23 87.63)
 		)
 		(stroke
 			(width 0)
@@ -886,7 +906,17 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 78.74) (xy 63.5 78.74)
+			(xy 15.24 163.83) (xy 43.18 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37a456c7-005b-43e2-844e-faebb3282f51")
+	)
+	(wire
+		(pts
+			(xy 31.75 60.96) (xy 63.5 60.96)
 		)
 		(stroke
 			(width 0)
@@ -896,7 +926,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 115.57) (xy 62.23 115.57)
+			(xy 34.29 97.79) (xy 62.23 97.79)
 		)
 		(stroke
 			(width 0)
@@ -946,6 +976,16 @@
 	)
 	(wire
 		(pts
+			(xy 97.79 138.43) (xy 125.73 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "567930ab-5bbe-43ef-9f2e-7b85376d154c")
+	)
+	(wire
+		(pts
 			(xy 210.82 100.33) (xy 223.52 100.33)
 		)
 		(stroke
@@ -956,7 +996,17 @@
 	)
 	(wire
 		(pts
-			(xy 15.24 142.24) (xy 43.18 142.24)
+			(xy 34.29 110.49) (xy 62.23 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "581ddad4-6f27-4e92-8769-eba585a71455")
+	)
+	(wire
+		(pts
+			(xy 15.24 124.46) (xy 43.18 124.46)
 		)
 		(stroke
 			(width 0)
@@ -966,7 +1016,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 142.24) (xy 81.28 142.24)
+			(xy 53.34 124.46) (xy 81.28 124.46)
 		)
 		(stroke
 			(width 0)
@@ -976,7 +1026,17 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 90.17) (xy 62.23 90.17)
+			(xy 34.29 113.03) (xy 62.23 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b5f6a53-4815-44b4-9f5a-f551322fb6b7")
+	)
+	(wire
+		(pts
+			(xy 34.29 72.39) (xy 62.23 72.39)
 		)
 		(stroke
 			(width 0)
@@ -986,7 +1046,7 @@
 	)
 	(wire
 		(pts
-			(xy 15.24 172.72) (xy 43.18 172.72)
+			(xy 15.24 154.94) (xy 43.18 154.94)
 		)
 		(stroke
 			(width 0)
@@ -996,7 +1056,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 97.79) (xy 62.23 97.79)
+			(xy 34.29 80.01) (xy 62.23 80.01)
 		)
 		(stroke
 			(width 0)
@@ -1016,7 +1076,7 @@
 	)
 	(wire
 		(pts
-			(xy 15.24 152.4) (xy 43.18 152.4)
+			(xy 15.24 134.62) (xy 43.18 134.62)
 		)
 		(stroke
 			(width 0)
@@ -1046,7 +1106,17 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 100.33) (xy 62.23 100.33)
+			(xy 15.24 173.99) (xy 43.18 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a58b6c3-76a2-4c92-9ddb-fd425fbc2a61")
+	)
+	(wire
+		(pts
+			(xy 34.29 82.55) (xy 62.23 82.55)
 		)
 		(stroke
 			(width 0)
@@ -1076,7 +1146,17 @@
 	)
 	(wire
 		(pts
-			(xy 15.24 162.56) (xy 43.18 162.56)
+			(xy 34.29 107.95) (xy 62.23 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84b00ce1-a259-4423-963b-460c26235a3a")
+	)
+	(wire
+		(pts
+			(xy 15.24 144.78) (xy 43.18 144.78)
 		)
 		(stroke
 			(width 0)
@@ -1116,7 +1196,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 152.4) (xy 81.28 152.4)
+			(xy 53.34 134.62) (xy 81.28 134.62)
 		)
 		(stroke
 			(width 0)
@@ -1126,7 +1206,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 113.03) (xy 62.23 113.03)
+			(xy 34.29 95.25) (xy 62.23 95.25)
 		)
 		(stroke
 			(width 0)
@@ -1136,7 +1216,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 118.11) (xy 62.23 118.11)
+			(xy 34.29 100.33) (xy 62.23 100.33)
 		)
 		(stroke
 			(width 0)
@@ -1146,33 +1226,13 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 120.65) (xy 62.23 120.65)
+			(xy 34.29 102.87) (xy 62.23 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "ad68d8ae-10f9-4ad6-b53c-0788bd2d0a5b")
-	)
-	(wire
-		(pts
-			(xy 97.79 135.89) (xy 125.73 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b325d38e-72dd-4ac3-84cb-c286278fa52d")
-	)
-	(wire
-		(pts
-			(xy 97.79 130.81) (xy 125.73 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b5599373-35e0-483a-93db-0eef1e84a4aa")
 	)
 	(wire
 		(pts
@@ -1186,7 +1246,17 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 107.95) (xy 62.23 107.95)
+			(xy 34.29 115.57) (xy 62.23 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd9188bd-38dc-452c-acd0-44ddbaa55cf9")
+	)
+	(wire
+		(pts
+			(xy 34.29 90.17) (xy 62.23 90.17)
 		)
 		(stroke
 			(width 0)
@@ -1196,13 +1266,23 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 110.49) (xy 62.23 110.49)
+			(xy 34.29 92.71) (xy 62.23 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "c5c9e67d-70f9-469b-958b-d53927a72423")
+	)
+	(wire
+		(pts
+			(xy 53.34 173.99) (xy 81.28 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c62fdcc6-1ddc-4369-ae3d-fc339a4e41b4")
 	)
 	(wire
 		(pts
@@ -1216,7 +1296,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 162.56) (xy 81.28 162.56)
+			(xy 53.34 144.78) (xy 81.28 144.78)
 		)
 		(stroke
 			(width 0)
@@ -1236,7 +1316,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 172.72) (xy 81.28 172.72)
+			(xy 53.34 154.94) (xy 81.28 154.94)
 		)
 		(stroke
 			(width 0)
@@ -1266,13 +1346,13 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 133.35) (xy 125.73 133.35)
+			(xy 53.34 163.83) (xy 81.28 163.83)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e96d80c1-aac4-48b6-8105-b8aa223b4c25")
+		(uuid "f233a8ea-a884-40f0-ba68-14614bf0bb75")
 	)
 	(wire
 		(pts
@@ -1285,7 +1365,7 @@
 		(uuid "fbd525d2-9957-437e-b286-c36258f57cb7")
 	)
 	(label "PT1000_4Wire_2-"
-		(at 62.23 123.19 180)
+		(at 62.23 105.41 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1294,15 +1374,15 @@
 		)
 		(uuid "0235e116-9728-43d5-bbf4-1db7667a36fe")
 	)
-	(label "PT1000_2-"
-		(at 107.95 135.89 0)
+	(label "PT1000_4Wire_3+"
+		(at 62.23 107.95 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
-		(uuid "04aed68c-55d9-470b-876d-60981d1d766a")
+		(uuid "03215972-e558-44ff-8c65-c4ccae7df845")
 	)
 	(label "A_OUT2"
 		(at 179.07 100.33 180)
@@ -1334,6 +1414,16 @@
 		)
 		(uuid "1d50b7d2-10ba-4c56-b350-bb60d0e32b93")
 	)
+	(label "PT1000_4Wire_3-"
+		(at 97.79 138.43 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1d95ab14-0101-4371-a2ba-2e9dba46e8f2")
+	)
 	(label "A_OUT1"
 		(at 179.07 92.71 180)
 		(effects
@@ -1343,6 +1433,16 @@
 			(justify right bottom)
 		)
 		(uuid "2035c675-fc9a-46d0-91d9-1bf9a64e2e1d")
+	)
+	(label "PT1000_3-"
+		(at 97.79 135.89 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "24991464-94aa-46d6-8a70-52989b04f303")
 	)
 	(label "SPI_nDRDY1"
 		(at 163.83 129.54 0)
@@ -1354,15 +1454,15 @@
 		)
 		(uuid "2fe382da-5095-4ed3-a732-e2788326c380")
 	)
-	(label "PT1000_4Wire_1-"
-		(at 107.95 128.27 0)
+	(label "PT1000_4Wire_3+"
+		(at 97.79 130.81 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "3fc510d5-44bc-47f1-a8e4-9237a5d1a1eb")
+		(uuid "35d497d9-0139-45b5-83d5-79057110d755")
 	)
 	(label "uHeater1+"
 		(at 114.3 66.04 0)
@@ -1374,8 +1474,18 @@
 		)
 		(uuid "4799652e-8442-4797-8d63-5e6efa58c23a")
 	)
+	(label "PT1000_3+"
+		(at 97.79 133.35 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "508511ad-0a17-4947-bc85-39ad54aea4e5")
+	)
 	(label "uHeater2-"
-		(at 62.23 100.33 180)
+		(at 62.23 82.55 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1393,6 +1503,16 @@
 			(justify left bottom)
 		)
 		(uuid "566c2311-3b3e-484d-b3f1-891a65abb186")
+	)
+	(label "PT1000_3+"
+		(at 35.56 163.83 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "568cd4d4-dcde-4b46-9312-57119dd81ed1")
 	)
 	(label "SPI_CLK"
 		(at 163.83 120.65 0)
@@ -1415,7 +1535,7 @@
 		(uuid "5dd7b916-8522-4f8a-a5f3-977756e316e7")
 	)
 	(label "PT1000_4Wire_2-"
-		(at 63.5 172.72 0)
+		(at 63.5 154.94 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1435,7 +1555,7 @@
 		(uuid "5e6be5e3-ceb6-4e3f-8213-2ba7f54025eb")
 	)
 	(label "PT1000_4Wire_1+"
-		(at 62.23 105.41 180)
+		(at 62.23 87.63 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1444,18 +1564,8 @@
 		)
 		(uuid "6042750c-f872-4831-bbf3-3f9db17ef6cc")
 	)
-	(label "PT1000_4Wire_1+"
-		(at 107.95 120.65 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "67df0bda-5e53-497b-848c-6f926698b072")
-	)
 	(label "PT1000_2+"
-		(at 62.23 118.11 180)
+		(at 62.23 100.33 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1484,6 +1594,16 @@
 		)
 		(uuid "6bfa8ab0-71d7-4add-9080-8807d2100e48")
 	)
+	(label "PT1000_4Wire_3-"
+		(at 62.23 115.57 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6ceb992b-c198-4314-8667-aae7a7b66d70")
+	)
 	(label "PT1000_1-"
 		(at 107.95 93.98 0)
 		(effects
@@ -1493,6 +1613,16 @@
 			(justify left bottom)
 		)
 		(uuid "6db26f18-8051-4782-bf39-c6d36f236716")
+	)
+	(label "PT1000_4Wire_3-"
+		(at 81.28 173.99 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "76ed3127-9d4a-4600-85fb-850ac821e5da")
 	)
 	(label "uHeater1_EN"
 		(at 195.58 67.31 180)
@@ -1515,7 +1645,7 @@
 		(uuid "7d203c9e-15a4-48ff-b4fd-33a6c1a57845")
 	)
 	(label "PT1000_2-"
-		(at 62.23 120.65 180)
+		(at 62.23 102.87 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1524,8 +1654,18 @@
 		)
 		(uuid "8264bfa7-a721-4477-addb-286b6f747797")
 	)
+	(label "PT1000_4Wire_3+"
+		(at 80.01 163.83 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "83fa9103-0f55-4f48-afe6-df84259ebb00")
+	)
 	(label "PT1000_1+"
-		(at 25.4 142.24 0)
+		(at 25.4 124.46 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1545,7 +1685,7 @@
 		(uuid "87622be2-608b-4991-af5e-f6b2e603a17d")
 	)
 	(label "PT1000_1+"
-		(at 62.23 107.95 180)
+		(at 62.23 90.17 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1554,8 +1694,18 @@
 		)
 		(uuid "9065d9ed-73d7-4a13-b1ec-6eb3a7cd218a")
 	)
+	(label "PT1000_3-"
+		(at 62.23 113.03 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "907eabf1-1efb-41ef-a03a-8b2337959b7b")
+	)
 	(label "uHeater1-"
-		(at 62.23 92.71 180)
+		(at 62.23 74.93 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1564,8 +1714,28 @@
 		)
 		(uuid "91700728-400b-451f-895e-ea6f6f62ca82")
 	)
+	(label "PT1000_4Wire_1+"
+		(at 97.79 120.65 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9498ce4d-a3de-4c60-8250-6cb2964e7843")
+	)
+	(label "PT1000_3-"
+		(at 33.02 173.99 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "94aaaea3-e103-4d7d-84fb-7128dfe2aed4")
+	)
 	(label "uHeater1+"
-		(at 62.23 90.17 180)
+		(at 62.23 72.39 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1574,8 +1744,18 @@
 		)
 		(uuid "94c47ff7-089e-48cb-8c36-a60c717acb4f")
 	)
+	(label "PT1000_4Wire_1-"
+		(at 97.79 128.27 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9d2ba95e-c496-4ef0-8b4a-340ad2bf33c9")
+	)
 	(label "PT1000_2-"
-		(at 25.4 172.72 0)
+		(at 25.4 154.94 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1584,8 +1764,18 @@
 		)
 		(uuid "a60751b4-1bc8-47dc-90dd-8c3d31f81cf3")
 	)
+	(label "PT1000_1-"
+		(at 97.79 125.73 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a78a8ec5-f3d7-4bb9-a064-f37817eca49c")
+	)
 	(label "PT1000_4Wire_1+"
-		(at 63.5 142.24 0)
+		(at 63.5 124.46 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1593,16 +1783,6 @@
 			(justify left bottom)
 		)
 		(uuid "ac729b7a-a425-4fa5-b6de-44d0ab283188")
-	)
-	(label "PT1000_4Wire_2-"
-		(at 107.95 138.43 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ad84de51-93ea-4fba-87fd-d016caf6b3e6")
 	)
 	(label "SPI_nDRDY2"
 		(at 163.83 135.89 0)
@@ -1614,18 +1794,8 @@
 		)
 		(uuid "b351aa2f-60f2-45c9-97c0-3e646a8b7774")
 	)
-	(label "PT1000_1-"
-		(at 107.95 125.73 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b52e766f-d650-482c-a4c1-d34787013717")
-	)
 	(label "PT1000_4Wire_1-"
-		(at 63.5 152.4 0)
+		(at 63.5 134.62 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1645,7 +1815,7 @@
 		(uuid "bfa3eada-409e-41ba-b833-153970879242")
 	)
 	(label "PT1000_4Wire_1-"
-		(at 62.23 113.03 180)
+		(at 62.23 95.25 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1665,7 +1835,7 @@
 		(uuid "c2034550-43fd-4be0-a650-d28be1fa93e0")
 	)
 	(label "PT1000_4Wire_2+"
-		(at 63.5 162.56 0)
+		(at 63.5 144.78 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1674,8 +1844,18 @@
 		)
 		(uuid "c5275881-84c8-4e72-bad0-e2f2aaa5b193")
 	)
+	(label "PT1000_3+"
+		(at 62.23 110.49 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "cdf1e28e-5184-47de-81d7-956851cb9e22")
+	)
 	(label "PT1000_4Wire_2+"
-		(at 62.23 115.57 180)
+		(at 62.23 97.79 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1685,7 +1865,7 @@
 		(uuid "ce018050-f53f-4ad6-b9f6-9b59b7718be6")
 	)
 	(label "uHeater2+"
-		(at 62.23 97.79 180)
+		(at 62.23 80.01 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1695,7 +1875,7 @@
 		(uuid "debe74bc-0dba-4c60-8877-95bf4d9601a7")
 	)
 	(label "PT1000_1-"
-		(at 25.4 152.4 0)
+		(at 25.4 134.62 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1705,17 +1885,7 @@
 		(uuid "e087ddf6-e1fa-4d83-b0ec-faeb10e3ef8e")
 	)
 	(label "PT1000_2+"
-		(at 107.95 133.35 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e1c0559f-2355-4b7f-860e-2a568e5360a4")
-	)
-	(label "PT1000_2+"
-		(at 25.4 162.56 0)
+		(at 25.4 144.78 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1725,27 +1895,17 @@
 		(uuid "e41ef77b-4da4-4d47-9ec5-18f6074a9888")
 	)
 	(label "PT1000_1+"
-		(at 107.95 123.19 0)
+		(at 97.79 123.19 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "ea398097-3968-4d14-8449-24d40089cd2b")
-	)
-	(label "PT1000_4Wire_2+"
-		(at 107.95 130.81 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f2fc4a7d-5af4-4d39-91d8-f203ef3c0fe1")
+		(uuid "e6f3594d-2678-4066-be35-7744a7765517")
 	)
 	(label "PT1000_1-"
-		(at 62.23 110.49 180)
+		(at 62.23 92.71 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1756,7 +1916,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
-		(at 29.21 115.57 0)
+		(at 29.21 113.03 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1765,19 +1925,19 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "0909a68f-e295-4135-bc11-cd1cc7252f34")
-		(property "Reference" "J1"
+		(uuid "03c5a4f1-a7c5-48a7-a634-c5ee8c7647c3")
+		(property "Reference" "J16"
+			(at 29.845 107.95 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
 			(at 29.845 110.49 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x01_Pin"
-			(at 29.845 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1788,7 +1948,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm"
-			(at 29.21 115.57 0)
+			(at 29.21 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1799,7 +1959,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 29.21 115.57 0)
+			(at 29.21 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1810,7 +1970,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 29.21 115.57 0)
+			(at 29.21 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1821,168 +1981,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "5f32fc85-06df-4821-818e-79a8101a8df4")
+			(uuid "ebdfa532-0547-4051-9b70-f759353b054c")
 		)
 		(instances
 			(project "Thermal_Anemometer"
 				(path "/1a4ae788-da9e-455d-943f-0a0d3148ba06"
-					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x01_Pin")
-		(at 29.21 100.33 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "09fbedf3-85d5-44f8-a216-ab60f4b5883a")
-		(property "Reference" "J6"
-			(at 29.845 95.25 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x01_Pin"
-			(at 29.845 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm"
-			(at 29.21 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 29.21 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 29.21 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2ff11dd1-b671-4b23-8987-786e075c8d8e")
-		)
-		(instances
-			(project "Thermal_Anemometer"
-				(path "/1a4ae788-da9e-455d-943f-0a0d3148ba06"
-					(reference "J6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+12V")
-		(at 63.5 78.74 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1b27f531-f151-48b2-866a-31e40872d8e4")
-		(property "Reference" "#PWR03"
-			(at 63.5 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+12V"
-			(at 63.5 73.66 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 63.5 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 63.5 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 63.5 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "133d067e-4864-443f-83e8-0fdc6e8f91c4")
-		)
-		(instances
-			(project "Thermal_Anemometer"
-				(path "/1a4ae788-da9e-455d-943f-0a0d3148ba06"
-					(reference "#PWR03")
+					(reference "J16")
 					(unit 1)
 				)
 			)
@@ -1999,8 +2003,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "1d360432-bc7e-4598-98c2-52b475ad7572")
-		(property "Reference" "J13"
+		(uuid "0909a68f-e295-4135-bc11-cd1cc7252f34")
+		(property "Reference" "J1"
 			(at 29.845 92.71 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2055,6 +2059,240 @@
 			)
 		)
 		(pin "1"
+			(uuid "5f32fc85-06df-4821-818e-79a8101a8df4")
+		)
+		(instances
+			(project "Thermal_Anemometer"
+				(path "/1a4ae788-da9e-455d-943f-0a0d3148ba06"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 29.21 82.55 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "09fbedf3-85d5-44f8-a216-ab60f4b5883a")
+		(property "Reference" "J6"
+			(at 29.845 77.47 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 29.845 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm"
+			(at 29.21 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 29.21 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 29.21 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2ff11dd1-b671-4b23-8987-786e075c8d8e")
+		)
+		(instances
+			(project "Thermal_Anemometer"
+				(path "/1a4ae788-da9e-455d-943f-0a0d3148ba06"
+					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 63.5 60.96 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1b27f531-f151-48b2-866a-31e40872d8e4")
+		(property "Reference" "#PWR03"
+			(at 63.5 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+12V"
+			(at 63.5 55.88 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 63.5 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 63.5 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "133d067e-4864-443f-83e8-0fdc6e8f91c4")
+		)
+		(instances
+			(project "Thermal_Anemometer"
+				(path "/1a4ae788-da9e-455d-943f-0a0d3148ba06"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 29.21 80.01 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1d360432-bc7e-4598-98c2-52b475ad7572")
+		(property "Reference" "J13"
+			(at 29.845 74.93 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 29.845 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm"
+			(at 29.21 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 29.21 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 29.21 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
 			(uuid "5062c268-3fb6-43b2-9fff-a25b9d98e877")
 		)
 		(instances
@@ -2067,8 +2305,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x01_Pin")
-		(at 29.21 110.49 0)
+		(lib_id "Jumper:Jumper_2_Open")
+		(at 48.26 173.99 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2077,9 +2315,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "27126d5a-06b3-47b8-bcfe-17bd09fa5d64")
-		(property "Reference" "J9"
-			(at 29.845 105.41 0)
+		(uuid "1e71081c-f182-4047-a483-1af63d361c04")
+		(property "Reference" "JP13"
+			(at 48.26 168.91 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2088,9 +2326,8 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x01_Pin"
-			(at 29.845 107.95 0)
-			(hide yes)
+		(property "Value" "Jumper_2_Open"
+			(at 48.26 171.45 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2099,8 +2336,8 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm"
-			(at 29.21 110.49 0)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm"
+			(at 48.26 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2111,7 +2348,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 29.21 110.49 0)
+			(at 48.26 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2121,241 +2358,8 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 29.21 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "96a0dabb-5f1e-4331-b115-fb26aea072e8")
-		)
-		(instances
-			(project "Thermal_Anemometer"
-				(path "/1a4ae788-da9e-455d-943f-0a0d3148ba06"
-					(reference "J9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x01_Pin")
-		(at 29.21 107.95 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3d19770e-15f6-4046-a346-47170fd16f1c")
-		(property "Reference" "J10"
-			(at 29.845 102.87 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x01_Pin"
-			(at 29.845 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm"
-			(at 29.21 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 29.21 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 29.21 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "24fd9766-7a6a-4781-a95c-56d26518bed1")
-		)
-		(instances
-			(project "Thermal_Anemometer"
-				(path "/1a4ae788-da9e-455d-943f-0a0d3148ba06"
-					(reference "J10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x01_Pin")
-		(at 29.21 120.65 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3fb27847-3fe2-402f-bb8b-7f25ebaf5744")
-		(property "Reference" "J4"
-			(at 29.845 115.57 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x01_Pin"
-			(at 29.845 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm"
-			(at 29.21 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 29.21 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 29.21 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9bbd0119-01c0-4aa3-ad43-b69cea28ec1d")
-		)
-		(instances
-			(project "Thermal_Anemometer"
-				(path "/1a4ae788-da9e-455d-943f-0a0d3148ba06"
-					(reference "J4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x02_Pin")
-		(at 26.67 76.2 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "48e2ded1-a0a7-4c2e-b093-c58df7db7505")
-		(property "Reference" "J3"
-			(at 27.305 71.12 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x02_Pin"
-			(at 27.305 73.66 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 26.67 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 26.67 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 26.67 76.2 0)
+		(property "Description" "Jumper, 2-pole, open"
+			(at 48.26 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2366,93 +2370,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "6f485e02-b001-40b3-ae96-f42c19d544aa")
+			(uuid "c9d5ab0a-1a7a-4dcd-9042-75c9cf4599c5")
 		)
 		(pin "1"
-			(uuid "6490eaef-9ee3-4dc0-9795-70c255cd9134")
+			(uuid "8e2179ff-e958-4e22-baee-d66f591dbfc7")
 		)
 		(instances
 			(project "Thermal_Anemometer"
 				(path "/1a4ae788-da9e-455d-943f-0a0d3148ba06"
-					(reference "J3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x01_Pin")
-		(at 29.21 113.03 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "54c11a08-9ef2-46c8-8663-e746f237530d")
-		(property "Reference" "J8"
-			(at 29.845 107.95 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x01_Pin"
-			(at 29.845 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm"
-			(at 29.21 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 29.21 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 29.21 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7755c287-07fa-4abb-9b74-870b5a518431")
-		)
-		(instances
-			(project "Thermal_Anemometer"
-				(path "/1a4ae788-da9e-455d-943f-0a0d3148ba06"
-					(reference "J8")
+					(reference "JP13")
 					(unit 1)
 				)
 			)
@@ -2469,8 +2395,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "58a71e13-9bf0-41ec-b354-1daeca66422d")
-		(property "Reference" "J12"
+		(uuid "27126d5a-06b3-47b8-bcfe-17bd09fa5d64")
+		(property "Reference" "J9"
 			(at 29.845 87.63 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2525,6 +2451,556 @@
 			)
 		)
 		(pin "1"
+			(uuid "96a0dabb-5f1e-4331-b115-fb26aea072e8")
+		)
+		(instances
+			(project "Thermal_Anemometer"
+				(path "/1a4ae788-da9e-455d-943f-0a0d3148ba06"
+					(reference "J9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:Jumper_2_Open")
+		(at 48.26 163.83 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3436e507-94ab-4ec1-9e93-7a72ca52f6bf")
+		(property "Reference" "JP12"
+			(at 48.26 158.75 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Jumper_2_Open"
+			(at 48.26 161.29 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm"
+			(at 48.26 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 48.26 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, open"
+			(at 48.26 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "7d4e8a87-d3c1-4ca1-878c-f3e11c48da0e")
+		)
+		(pin "1"
+			(uuid "1eedd66f-91d9-4ee4-9621-03ccb194399d")
+		)
+		(instances
+			(project "Thermal_Anemometer"
+				(path "/1a4ae788-da9e-455d-943f-0a0d3148ba06"
+					(reference "JP12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 29.21 110.49 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3593147c-2e8d-43b5-99d2-6164e4dfcf9e")
+		(property "Reference" "J15"
+			(at 29.845 105.41 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 29.845 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm"
+			(at 29.21 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 29.21 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 29.21 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e750dd30-5a0f-45c6-bc95-ff4b6b8feab6")
+		)
+		(instances
+			(project "Thermal_Anemometer"
+				(path "/1a4ae788-da9e-455d-943f-0a0d3148ba06"
+					(reference "J15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 29.21 90.17 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3d19770e-15f6-4046-a346-47170fd16f1c")
+		(property "Reference" "J10"
+			(at 29.845 85.09 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 29.845 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm"
+			(at 29.21 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 29.21 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 29.21 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "24fd9766-7a6a-4781-a95c-56d26518bed1")
+		)
+		(instances
+			(project "Thermal_Anemometer"
+				(path "/1a4ae788-da9e-455d-943f-0a0d3148ba06"
+					(reference "J10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 29.21 102.87 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3fb27847-3fe2-402f-bb8b-7f25ebaf5744")
+		(property "Reference" "J4"
+			(at 29.845 97.79 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 29.845 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm"
+			(at 29.21 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 29.21 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 29.21 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9bbd0119-01c0-4aa3-ad43-b69cea28ec1d")
+		)
+		(instances
+			(project "Thermal_Anemometer"
+				(path "/1a4ae788-da9e-455d-943f-0a0d3148ba06"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 26.67 58.42 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "48e2ded1-a0a7-4c2e-b093-c58df7db7505")
+		(property "Reference" "J3"
+			(at 27.305 53.34 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02_Pin"
+			(at 27.305 55.88 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 26.67 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 26.67 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 26.67 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "6f485e02-b001-40b3-ae96-f42c19d544aa")
+		)
+		(pin "1"
+			(uuid "6490eaef-9ee3-4dc0-9795-70c255cd9134")
+		)
+		(instances
+			(project "Thermal_Anemometer"
+				(path "/1a4ae788-da9e-455d-943f-0a0d3148ba06"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 29.21 95.25 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "54c11a08-9ef2-46c8-8663-e746f237530d")
+		(property "Reference" "J8"
+			(at 29.845 90.17 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 29.845 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm"
+			(at 29.21 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 29.21 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 29.21 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7755c287-07fa-4abb-9b74-870b5a518431")
+		)
+		(instances
+			(project "Thermal_Anemometer"
+				(path "/1a4ae788-da9e-455d-943f-0a0d3148ba06"
+					(reference "J8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 29.21 74.93 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "58a71e13-9bf0-41ec-b354-1daeca66422d")
+		(property "Reference" "J12"
+			(at 29.845 69.85 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 29.845 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm"
+			(at 29.21 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 29.21 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 29.21 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
 			(uuid "8d722246-785d-4376-8ce2-06e2f8483fa2")
 		)
 		(instances
@@ -2538,7 +3014,7 @@
 	)
 	(symbol
 		(lib_id "Jumper:Jumper_2_Open")
-		(at 48.26 162.56 180)
+		(at 48.26 144.78 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2549,7 +3025,7 @@
 		(fields_autoplaced yes)
 		(uuid "6b29cbdc-75e7-4d36-a130-2d4d37bc43ea")
 		(property "Reference" "JP4"
-			(at 48.26 157.48 0)
+			(at 48.26 139.7 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2559,7 +3035,7 @@
 			)
 		)
 		(property "Value" "Jumper_2_Open"
-			(at 48.26 160.02 0)
+			(at 48.26 142.24 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2569,7 +3045,7 @@
 			)
 		)
 		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm"
-			(at 48.26 162.56 0)
+			(at 48.26 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2580,7 +3056,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 48.26 162.56 0)
+			(at 48.26 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2591,7 +3067,7 @@
 			)
 		)
 		(property "Description" "Jumper, 2-pole, open"
-			(at 48.26 162.56 0)
+			(at 48.26 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2618,7 +3094,7 @@
 	)
 	(symbol
 		(lib_id "Jumper:Jumper_2_Open")
-		(at 48.26 172.72 180)
+		(at 48.26 154.94 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2629,7 +3105,7 @@
 		(fields_autoplaced yes)
 		(uuid "6b747106-2fa4-458f-a917-1e32e96f121e")
 		(property "Reference" "JP5"
-			(at 48.26 167.64 0)
+			(at 48.26 149.86 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2639,7 +3115,7 @@
 			)
 		)
 		(property "Value" "Jumper_2_Open"
-			(at 48.26 170.18 0)
+			(at 48.26 152.4 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2649,7 +3125,7 @@
 			)
 		)
 		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm"
-			(at 48.26 172.72 0)
+			(at 48.26 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2660,7 +3136,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 48.26 172.72 0)
+			(at 48.26 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2671,7 +3147,7 @@
 			)
 		)
 		(property "Description" "Jumper, 2-pole, open"
-			(at 48.26 172.72 0)
+			(at 48.26 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2698,7 +3174,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
-		(at 29.21 105.41 0)
+		(at 29.21 87.63 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2709,6 +3185,633 @@
 		(fields_autoplaced yes)
 		(uuid "7cb26f38-f1fd-49fa-acfd-6304fd6ca2f2")
 		(property "Reference" "J7"
+			(at 29.845 82.55 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 29.845 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm"
+			(at 29.21 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 29.21 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 29.21 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d4bf8ad0-f999-4323-9573-e8c5bb57ae2c")
+		)
+		(instances
+			(project "Thermal_Anemometer"
+				(path "/1a4ae788-da9e-455d-943f-0a0d3148ba06"
+					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 59.69 58.42 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7fb0aaff-94f4-495a-9fb6-78ddd63a8f1d")
+		(property "Reference" "#PWR04"
+			(at 59.69 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 59.69 63.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 59.69 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 59.69 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 59.69 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cadbe8a2-6a4b-4958-bd50-79ddbf68d296")
+		)
+		(instances
+			(project "Thermal_Anemometer"
+				(path "/1a4ae788-da9e-455d-943f-0a0d3148ba06"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:Jumper_2_Open")
+		(at 48.26 134.62 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b14a81bc-d32a-4668-98bd-31705acae6d1")
+		(property "Reference" "JP2"
+			(at 48.26 129.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Jumper_2_Open"
+			(at 48.26 132.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm"
+			(at 48.26 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 48.26 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, open"
+			(at 48.26 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "4366885e-7df7-4f32-99a0-e404e0f550df")
+		)
+		(pin "1"
+			(uuid "7a8ecd66-e654-4ba0-8351-524571117ead")
+		)
+		(instances
+			(project "Thermal_Anemometer"
+				(path "/1a4ae788-da9e-455d-943f-0a0d3148ba06"
+					(reference "JP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 29.21 100.33 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b8aebc4b-4fec-4ad2-829a-bc40b5d0d573")
+		(property "Reference" "J2"
+			(at 29.845 95.25 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 29.845 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm"
+			(at 29.21 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 29.21 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 29.21 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8a57e129-369e-4471-927e-fb830a8f3fe1")
+		)
+		(instances
+			(project "Thermal_Anemometer"
+				(path "/1a4ae788-da9e-455d-943f-0a0d3148ba06"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 29.21 72.39 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c36cd86d-72c6-4313-8226-807153ed453c")
+		(property "Reference" "J11"
+			(at 29.845 67.31 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 28.448 70.358 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm"
+			(at 29.21 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 29.21 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 29.21 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b9c7f126-5d6c-4477-847b-cb4e733c3eff")
+		)
+		(instances
+			(project "Thermal_Anemometer"
+				(path "/1a4ae788-da9e-455d-943f-0a0d3148ba06"
+					(reference "J11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 29.21 107.95 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c546ed37-4e53-4452-bd78-7d0b39e02cb3")
+		(property "Reference" "J14"
+			(at 29.845 102.87 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 29.845 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm"
+			(at 29.21 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 29.21 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 29.21 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "95726c47-d848-4ea5-a77b-25afae823cbb")
+		)
+		(instances
+			(project "Thermal_Anemometer"
+				(path "/1a4ae788-da9e-455d-943f-0a0d3148ba06"
+					(reference "J14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 29.21 115.57 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cbfde174-f1f0-4e2c-9a32-d07ffaf40982")
+		(property "Reference" "J17"
+			(at 29.845 110.49 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 29.845 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm"
+			(at 29.21 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 29.21 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 29.21 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1e27a9bd-0c71-4683-9fb9-7e989753e5d8")
+		)
+		(instances
+			(project "Thermal_Anemometer"
+				(path "/1a4ae788-da9e-455d-943f-0a0d3148ba06"
+					(reference "J17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:Jumper_2_Open")
+		(at 48.26 124.46 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e5d01d34-a96c-49b3-8ca9-82f9eb08c2fd")
+		(property "Reference" "JP3"
+			(at 48.26 119.38 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Jumper_2_Open"
+			(at 48.26 121.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm"
+			(at 48.26 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 48.26 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, open"
+			(at 48.26 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "666b8af7-67c4-4271-8b1a-1090f16e8146")
+		)
+		(pin "1"
+			(uuid "c726985c-f6ee-46e8-964d-42e04f383056")
+		)
+		(instances
+			(project "Thermal_Anemometer"
+				(path "/1a4ae788-da9e-455d-943f-0a0d3148ba06"
+					(reference "JP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 29.21 105.41 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f4a24ea9-157c-4e4d-b9d6-6b219b98a0cd")
+		(property "Reference" "J5"
 			(at 29.845 100.33 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2753,477 +3856,6 @@
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
 			(at 29.21 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d4bf8ad0-f999-4323-9573-e8c5bb57ae2c")
-		)
-		(instances
-			(project "Thermal_Anemometer"
-				(path "/1a4ae788-da9e-455d-943f-0a0d3148ba06"
-					(reference "J7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 59.69 76.2 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7fb0aaff-94f4-495a-9fb6-78ddd63a8f1d")
-		(property "Reference" "#PWR04"
-			(at 59.69 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 59.69 81.28 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 59.69 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 59.69 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 59.69 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "cadbe8a2-6a4b-4958-bd50-79ddbf68d296")
-		)
-		(instances
-			(project "Thermal_Anemometer"
-				(path "/1a4ae788-da9e-455d-943f-0a0d3148ba06"
-					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:Jumper_2_Open")
-		(at 48.26 152.4 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b14a81bc-d32a-4668-98bd-31705acae6d1")
-		(property "Reference" "JP2"
-			(at 48.26 147.32 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Jumper_2_Open"
-			(at 48.26 149.86 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm"
-			(at 48.26 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 48.26 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Jumper, 2-pole, open"
-			(at 48.26 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "4366885e-7df7-4f32-99a0-e404e0f550df")
-		)
-		(pin "1"
-			(uuid "7a8ecd66-e654-4ba0-8351-524571117ead")
-		)
-		(instances
-			(project "Thermal_Anemometer"
-				(path "/1a4ae788-da9e-455d-943f-0a0d3148ba06"
-					(reference "JP2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x01_Pin")
-		(at 29.21 118.11 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b8aebc4b-4fec-4ad2-829a-bc40b5d0d573")
-		(property "Reference" "J2"
-			(at 29.845 113.03 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x01_Pin"
-			(at 29.845 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm"
-			(at 29.21 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 29.21 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 29.21 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8a57e129-369e-4471-927e-fb830a8f3fe1")
-		)
-		(instances
-			(project "Thermal_Anemometer"
-				(path "/1a4ae788-da9e-455d-943f-0a0d3148ba06"
-					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x01_Pin")
-		(at 29.21 90.17 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "c36cd86d-72c6-4313-8226-807153ed453c")
-		(property "Reference" "J11"
-			(at 29.845 85.09 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x01_Pin"
-			(at 28.448 88.138 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm"
-			(at 29.21 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 29.21 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 29.21 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b9c7f126-5d6c-4477-847b-cb4e733c3eff")
-		)
-		(instances
-			(project "Thermal_Anemometer"
-				(path "/1a4ae788-da9e-455d-943f-0a0d3148ba06"
-					(reference "J11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:Jumper_2_Open")
-		(at 48.26 142.24 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e5d01d34-a96c-49b3-8ca9-82f9eb08c2fd")
-		(property "Reference" "JP3"
-			(at 48.26 137.16 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Jumper_2_Open"
-			(at 48.26 139.7 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm"
-			(at 48.26 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 48.26 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Jumper, 2-pole, open"
-			(at 48.26 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "666b8af7-67c4-4271-8b1a-1090f16e8146")
-		)
-		(pin "1"
-			(uuid "c726985c-f6ee-46e8-964d-42e04f383056")
-		)
-		(instances
-			(project "Thermal_Anemometer"
-				(path "/1a4ae788-da9e-455d-943f-0a0d3148ba06"
-					(reference "JP3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x01_Pin")
-		(at 29.21 123.19 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f4a24ea9-157c-4e4d-b9d6-6b219b98a0cd")
-		(property "Reference" "J5"
-			(at 29.845 118.11 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x01_Pin"
-			(at 29.845 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm"
-			(at 29.21 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 29.21 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 29.21 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

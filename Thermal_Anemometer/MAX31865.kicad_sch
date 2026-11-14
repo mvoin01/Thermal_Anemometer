@@ -2,7 +2,7 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid "ab9a0f05-fc76-4927-8d37-978095d3f79c")
+	(uuid "6229e11a-fcad-483f-b4e5-00bbd3cc8fdf")
 	(paper "A4")
 	(title_block
 		(title "Thermal Anemometer")
@@ -1559,16 +1559,6 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 101.6) (xy 53.34 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "10c4d75b-d6d6-4ad0-9850-4338772d2cb4")
-	)
-	(wire
-		(pts
 			(xy 60.96 33.02) (xy 74.93 33.02)
 		)
 		(stroke
@@ -1596,16 +1586,6 @@
 			(type default)
 		)
 		(uuid "1547c1f5-7166-414a-be38-1448c8a6049b")
-	)
-	(wire
-		(pts
-			(xy 72.39 99.06) (xy 86.36 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1827a564-9446-463d-86be-639016ec891e")
 	)
 	(wire
 		(pts
@@ -1899,16 +1879,6 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 105.41) (xy 80.01 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7e73934a-c48d-480b-9ae4-0f505512b73c")
-	)
-	(wire
-		(pts
 			(xy 163.83 151.13) (xy 163.83 154.94)
 		)
 		(stroke
@@ -1969,16 +1939,6 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 101.6) (xy 53.34 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8ebc771e-c772-4cbc-a9f6-42f864f65517")
-	)
-	(wire
-		(pts
 			(xy 233.68 97.79) (xy 252.73 97.79)
 		)
 		(stroke
@@ -1999,7 +1959,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 105.41) (xy 55.88 105.41)
+			(xy 30.48 101.6) (xy 57.15 101.6)
 		)
 		(stroke
 			(width 0)
@@ -2379,7 +2339,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 99.06) (xy 62.23 99.06)
+			(xy 30.48 99.06) (xy 57.15 99.06)
 		)
 		(stroke
 			(width 0)
@@ -2407,7 +2367,7 @@
 		)
 		(uuid "fffb571f-bfe2-451d-aaab-a1a280c0efd1")
 	)
-	(label "RTDIN2+"
+	(label "RTDIN3+"
 		(at 127 67.31 0)
 		(effects
 			(font
@@ -2417,8 +2377,8 @@
 		)
 		(uuid "0036410a-a24c-41f1-88af-02cbde4ee8f4")
 	)
-	(label "RTDIN2-"
-		(at 80.01 105.41 180)
+	(label "RTDIN3-"
+		(at 57.15 101.6 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2447,7 +2407,7 @@
 		)
 		(uuid "1b88141b-3662-48a5-9df5-b85b6d44dd59")
 	)
-	(label "RTDIN2-"
+	(label "RTDIN3-"
 		(at 127 72.39 0)
 		(effects
 			(font
@@ -2457,7 +2417,7 @@
 		)
 		(uuid "1d827f13-2573-4e2b-978a-38c3b9278ff4")
 	)
-	(label "RTDIN2-"
+	(label "RTDIN3-"
 		(at 110.49 72.39 180)
 		(effects
 			(font
@@ -2507,7 +2467,7 @@
 		)
 		(uuid "4512c36a-18b9-49bb-867a-3bdad2509bca")
 	)
-	(label "4WIRE2+"
+	(label "4WIRE3+"
 		(at 127 62.23 0)
 		(effects
 			(font
@@ -2547,7 +2507,7 @@
 		)
 		(uuid "5d35320a-f340-414f-a016-e65878adce3d")
 	)
-	(label "4WIRE2-"
+	(label "4WIRE3-"
 		(at 48.26 107.95 180)
 		(effects
 			(font
@@ -2587,7 +2547,7 @@
 		)
 		(uuid "6ab4d39a-9627-4995-879b-9d8dec10531b")
 	)
-	(label "REFIN2+"
+	(label "REFIN3+"
 		(at 139.7 49.53 180)
 		(effects
 			(font
@@ -2607,7 +2567,7 @@
 		)
 		(uuid "7b5a7824-4af9-4e28-9616-e8d3477ceff0")
 	)
-	(label "REFIN2+"
+	(label "REFIN3+"
 		(at 133.35 27.94 180)
 		(effects
 			(font
@@ -2627,7 +2587,7 @@
 		)
 		(uuid "8282a8bd-98af-4529-8d5a-a5312a1763e3")
 	)
-	(label "4WIRE2-"
+	(label "4WIRE3-"
 		(at 127 74.93 0)
 		(effects
 			(font
@@ -2697,7 +2657,7 @@
 		)
 		(uuid "a4f6110f-9119-4e15-8483-b48a4b48a187")
 	)
-	(label "4WIRE2+"
+	(label "4WIRE3+"
 		(at 48.26 105.41 180)
 		(effects
 			(font
@@ -2737,7 +2697,7 @@
 		)
 		(uuid "b83b0e40-efe9-40cf-8d2f-c2b0fe7502a4")
 	)
-	(label "RTDIN2+"
+	(label "RTDIN3+"
 		(at 110.49 64.77 180)
 		(effects
 			(font
@@ -2787,7 +2747,7 @@
 		)
 		(uuid "cef1ffb0-0105-482f-a42e-0aa0360d4aae")
 	)
-	(label "REFIN2-"
+	(label "REFIN3-"
 		(at 127 54.61 0)
 		(effects
 			(font
@@ -2817,8 +2777,8 @@
 		)
 		(uuid "dc4bbe2c-5aeb-4e4b-aa47-e0dafd61796e")
 	)
-	(label "RTDIN2+"
-		(at 86.36 99.06 180)
+	(label "RTDIN3+"
+		(at 57.15 99.06 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2827,7 +2787,7 @@
 		)
 		(uuid "e3df9aa7-f2ad-441d-a8ff-91d0f79c3372")
 	)
-	(label "REFIN2-"
+	(label "REFIN3-"
 		(at 133.35 39.37 180)
 		(effects
 			(font
@@ -4087,86 +4047,6 @@
 			(project "Thermal_Anemometer"
 				(path "/1a4ae788-da9e-455d-943f-0a0d3148ba06/ccdc9088-82b0-4725-99c3-cfff00013011"
 					(reference "U4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:Jumper_2_Open")
-		(at 67.31 99.06 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "923ced13-3354-42b1-b8fd-ef0a7ba011a8")
-		(property "Reference" "JP12"
-			(at 67.31 93.98 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Jumper_2_Open"
-			(at 67.31 96.52 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm"
-			(at 67.31 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 67.31 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Jumper, 2-pole, open"
-			(at 67.31 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "eb1047ea-87e0-4150-aa7c-3201fecd05b6")
-		)
-		(pin "1"
-			(uuid "ef671a7e-89b0-4ad3-ba27-9cbbcc4b841a")
-		)
-		(instances
-			(project "Thermal_Anemometer"
-				(path "/1a4ae788-da9e-455d-943f-0a0d3148ba06/ccdc9088-82b0-4725-99c3-cfff00013011"
-					(reference "JP12")
 					(unit 1)
 				)
 			)
@@ -5438,86 +5318,6 @@
 			(project "Thermal_Anemometer"
 				(path "/1a4ae788-da9e-455d-943f-0a0d3148ba06/ccdc9088-82b0-4725-99c3-cfff00013011"
 					(reference "#PWR031")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:Jumper_2_Open")
-		(at 60.96 105.41 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f2dd91ca-53b2-4272-9468-f60e166cacf9")
-		(property "Reference" "JP13"
-			(at 60.96 100.33 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Jumper_2_Open"
-			(at 60.96 102.87 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm"
-			(at 60.96 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 60.96 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Jumper, 2-pole, open"
-			(at 60.96 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "2b0d274c-a2db-4cd4-b3bb-bb90aec2368f")
-		)
-		(pin "1"
-			(uuid "6c24e594-2880-44df-87dc-622bfd3c2fb9")
-		)
-		(instances
-			(project "Thermal_Anemometer"
-				(path "/1a4ae788-da9e-455d-943f-0a0d3148ba06/ccdc9088-82b0-4725-99c3-cfff00013011"
-					(reference "JP13")
 					(unit 1)
 				)
 			)
