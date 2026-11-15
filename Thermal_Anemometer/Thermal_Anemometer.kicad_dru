@@ -1,0 +1,11 @@
+(version 1)
+
+(rule "Via annular ring"
+    (condition "A.Type == 'via'")
+    (constraint annular_width (min 0.05mm))
+)
+
+(rule "PTH annular ring"
+    (condition "A.Type == 'pad' && A.isPlated()")
+    (constraint annular_width (min 0.15mm))
+)

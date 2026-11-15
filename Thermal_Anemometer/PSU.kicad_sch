@@ -2,7 +2,7 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid "fb9d2039-d302-44e0-abbe-5ad275587003")
+	(uuid "e0297e34-ee80-4c8b-a0a2-ff2b0facfae4")
 	(paper "A4")
 	(title_block
 		(title "Thermal Anemometer")
@@ -867,7 +867,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Regulator_Switching:AP62300Z6"
+		(symbol "Regulator_Switching:AP62300WU"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -881,11 +881,10 @@
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Value" "AP62300Z6"
-				(at 6.35 -6.35 0)
+			(property "Value" "AP62300WU"
+				(at 2.54 6.35 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -894,8 +893,8 @@
 					)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-563"
-				(at 0 0 0)
+			(property "Footprint" "Package_TO_SOT_SMD:TSOT-23-6"
+				(at 0 -22.86 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -916,7 +915,7 @@
 					)
 				)
 			)
-			(property "Description" "3A, 1.3MHz Buck DC/DC Converter, adjustable output voltage, SOT-563"
+			(property "Description" "3A, 750kHz Buck DC/DC Converter, PFM for light load efficiency, 4.2V-18V input voltage, 0.8V-7V adjustable output voltage, TSOT-23-6"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -927,7 +926,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "3A 1.3MHz PWM Buck DC/DC"
+			(property "ki_keywords" "3A Buck DC/DC"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -938,7 +937,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "SOT?563*"
+			(property "ki_fp_filters" "TSOT?23*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -949,7 +948,7 @@
 					)
 				)
 			)
-			(symbol "AP62300Z6_0_1"
+			(symbol "AP62300WU_0_1"
 				(rectangle
 					(start -7.62 5.08)
 					(end 7.62 -5.08)
@@ -962,11 +961,11 @@
 					)
 				)
 			)
-			(symbol "AP62300Z6_1_1"
+			(symbol "AP62300WU_1_1"
 				(pin power_in line
-					(at -10.16 2.54 0)
+					(at 0 -7.62 90)
 					(length 2.54)
-					(name "VIN"
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1000,9 +999,9 @@
 					)
 				)
 				(pin power_in line
-					(at 0 -7.62 90)
+					(at -10.16 2.54 0)
 					(length 2.54)
-					(name "GND"
+					(name "IN"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1017,10 +1016,10 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 10.16 0 180)
+				(pin input line
+					(at 10.16 -2.54 180)
 					(length 2.54)
-					(name "BST"
+					(name "FB"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1035,7 +1034,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at -10.16 -2.54 0)
 					(length 2.54)
 					(name "EN"
@@ -1053,10 +1052,10 @@
 						)
 					)
 				)
-				(pin input line
-					(at 10.16 -2.54 180)
+				(pin passive line
+					(at 10.16 0 180)
 					(length 2.54)
-					(name "FB"
+					(name "BST"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2201,16 +2200,6 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 54.61) (xy 171.45 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b18d1ae1-2ee2-432f-9fbe-57b86265b3c9")
-	)
-	(wire
-		(pts
 			(xy 171.45 59.69) (xy 176.53 59.69)
 		)
 		(stroke
@@ -2251,6 +2240,16 @@
 	)
 	(wire
 		(pts
+			(xy 148.59 49.53) (xy 161.29 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c16d928c-f54e-4ff7-bd14-42bfa6ad499a")
+	)
+	(wire
+		(pts
 			(xy 161.29 52.07) (xy 158.75 52.07)
 		)
 		(stroke
@@ -2261,13 +2260,13 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 49.53) (xy 148.59 49.53)
+			(xy 148.59 54.61) (xy 171.45 54.61)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cab31618-c494-4202-bc81-f4f22196c94d")
+		(uuid "ca65355e-5b41-45c1-937f-1ec252304e15")
 	)
 	(wire
 		(pts
@@ -3020,6 +3019,98 @@
 		)
 	)
 	(symbol
+		(lib_id "Regulator_Switching:AP62300WU")
+		(at 138.43 52.07 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4f82f21e-f2c3-4448-8ee1-7fb581917087")
+		(property "Reference" "U7"
+			(at 138.43 41.91 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AP62300WU"
+			(at 138.43 44.45 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:TSOT-23-6"
+			(at 138.43 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AP62300_AP62301_AP62300T.pdf"
+			(at 138.43 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "3A, 750kHz Buck DC/DC Converter, PFM for light load efficiency, 4.2V-18V input voltage, 0.8V-7V adjustable output voltage, TSOT-23-6"
+			(at 138.43 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "6"
+			(uuid "49ad5021-26a7-428a-9245-1c855c4dc791")
+		)
+		(pin "1"
+			(uuid "469e4144-5740-4241-b371-70886f32b7e9")
+		)
+		(pin "2"
+			(uuid "1033c3f8-8f81-4a28-87b4-109122050978")
+		)
+		(pin "4"
+			(uuid "245ce503-6941-493a-a76a-328e80b451e9")
+		)
+		(pin "5"
+			(uuid "f85f3781-c11e-411c-aa38-5b6763cbcd5a")
+		)
+		(pin "3"
+			(uuid "710dd8cc-1e31-4c72-819a-d70e07126ddd")
+		)
+		(instances
+			(project "Thermal_Anemometer"
+				(path "/1a4ae788-da9e-455d-943f-0a0d3148ba06/1ca572dd-078e-472c-9cd3-8d14f26c455e"
+					(reference "U7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 115.57 125.73 0)
 		(unit 1)
@@ -3535,98 +3626,6 @@
 			(project "Thermal_Anemometer"
 				(path "/1a4ae788-da9e-455d-943f-0a0d3148ba06/1ca572dd-078e-472c-9cd3-8d14f26c455e"
 					(reference "C4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Regulator_Switching:AP62300Z6")
-		(at 138.43 52.07 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9aa06147-0bba-44bd-9bfe-56c143fd133a")
-		(property "Reference" "U3"
-			(at 138.43 41.91 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "AP62300Z6"
-			(at 138.43 44.45 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-563"
-			(at 138.43 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AP62300_AP62301_AP62300T.pdf"
-			(at 138.43 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "3A, 1.3MHz Buck DC/DC Converter, adjustable output voltage, SOT-563"
-			(at 138.43 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "5"
-			(uuid "0d8f6fa4-b891-4e1d-a956-aa1bfdfa6664")
-		)
-		(pin "3"
-			(uuid "d20d2072-278a-44c9-bb31-3f429769d845")
-		)
-		(pin "1"
-			(uuid "ed5e3cff-9fd1-463f-970b-5411584aa82d")
-		)
-		(pin "6"
-			(uuid "5d865b87-13ce-4bb4-9226-bac4829ff1fa")
-		)
-		(pin "2"
-			(uuid "661e2789-f43b-4f5a-8ce5-43ab7c266e40")
-		)
-		(pin "4"
-			(uuid "1982a90d-6b81-4d0e-b466-c3191bcf309a")
-		)
-		(instances
-			(project "Thermal_Anemometer"
-				(path "/1a4ae788-da9e-455d-943f-0a0d3148ba06/1ca572dd-078e-472c-9cd3-8d14f26c455e"
-					(reference "U3")
 					(unit 1)
 				)
 			)
