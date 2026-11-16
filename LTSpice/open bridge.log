@@ -1,0 +1,38 @@
+LTspice 26.1.1 for Windows
+Circuit: C:\Sandbox\Thermal_Anemometer\LTSpice\open bridge.net
+Start Time: Sun Nov 15 12:00:29 2026
+solver = Normal
+Maximum thread count: 20
+tnom = 27
+temp = 27
+method = trap
+Direct Newton iteration succeeded in finding operating point.
+Direct Newton iteration succeeded in finding operating point.
+Direct Newton iteration succeeded in finding operating point.
+Direct Newton iteration succeeded in finding operating point.
+Direct Newton iteration succeeded in finding operating point.
+Direct Newton iteration succeeded in finding operating point.
+Direct Newton iteration succeeded in finding operating point.
+Direct Newton iteration succeeded in finding operating point.
+Direct Newton iteration succeeded in finding operating point.
+Direct Newton iteration succeeded in finding operating point.
+Direct Newton iteration succeeded in finding operating point.
+Direct Newton iteration succeeded in finding operating point.
+Direct Newton iteration succeeded in finding operating point.
+Direct Newton iteration succeeded in finding operating point.
+Direct Newton iteration succeeded in finding operating point.
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping succeeded in finding the operating point.
+
+Direct Newton iteration succeeded in finding operating point.
+Total elapsed time: 0.501 seconds.
+Total iterations: 28
+
+Files loaded:
+C:\Sandbox\Thermal_Anemometer\LTSpice\open bridge.net
+C:\Users\mvoin\AppData\Local\LTspice\lib\sub\ADI.lib
+
+C:\Sandbox\Thermal_Anemometer\LTSpice\open bridge.net(17): Voltage not found.
+.meas op Vout FIND V(out)
+                   ^^^^^^

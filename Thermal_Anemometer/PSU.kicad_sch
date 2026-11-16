@@ -1724,16 +1724,6 @@
 		)
 		(uuid "ed639c65-906a-426b-a284-785edf317fed")
 	)
-	(text "Reverse polarity protection? TVS diodes?\n"
-		(exclude_from_sim no)
-		(at 109.982 79.756 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "ffae60c1-c7e1-49f9-bdea-099158a72d65")
-	)
 	(junction
 		(at 187.96 52.07)
 		(diameter 0)

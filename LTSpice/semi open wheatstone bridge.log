@@ -1,0 +1,16 @@
+LTspice 26.1.1 for Windows
+Circuit: C:\Sandbox\Thermal_Anemometer\LTSpice\semi open wheatstone bridge.net
+Start Time: Sun Nov 15 12:38:37 2026
+solver = Normal
+Maximum thread count: 20
+tnom = 27
+temp = 27
+method = trap
+Direct Newton iteration succeeded in finding operating point.
+Total elapsed time: 0.075 seconds.
+Total iterations: 238
+
+Files loaded:
+C:\Sandbox\Thermal_Anemometer\LTSpice\semi open wheatstone bridge.net
+C:\Users\mvoin\AppData\Local\LTspice\lib\sub\LT1013.sub
+
